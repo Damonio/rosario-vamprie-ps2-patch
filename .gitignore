@@ -15,3 +15,5 @@ build/
 *.spec
 .DS_Store
 /.idea/
+extracted_textures/
+*.tmp

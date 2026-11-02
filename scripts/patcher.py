@@ -8,6 +8,7 @@ Reads multi-language JSON translation files (from translations/ or extracted_tex
 Pure Python - zero external dependencies.
 """
 
+import os
 import re
 import shutil
 import struct
@@ -20,6 +21,7 @@ from pac_tool import PacArchive
 from lzr_tool import decompress_lzr, compress_lzr, rebuild_evb
 from font_mapper import encode_game_string
 from translation_manager import TranslationProject
+import tex_tool
 
 
 def _parse_max_bytes(context: str, default_len: int) -> int:
@@ -133,74 +135,154 @@ class GamePatcher:
                 # Character speaker name table definition
                 # Actual speaker pointer table in SLPM_551.89 is at file offset 0x1047B8 (VA 0x002037B8)
                 # with 30 entries (32-bit pointers).
-                # (Note: 0x13A3DC is the font glyph table - modifying it crashes the game font renderer!)
                 #
-                # Allocation layout within existing loaded ELF segments (PH[0]):
-                # Group 1: 0x14f898..0x14f940 (168 bytes in .sdata, VA = offset + 0x0FF000)
-                # Group 2: 0x14f724..0x14f780 (92 bytes in .rodata zero-padding)
-                # Group 3: 0x14f7b0..0x14f800 (80 bytes in .rodata zero-padding)
+                # Safe zero-padding allocation in .data section:
+                # File offset 0x1306F0 (VA 0x0022F6F0) has 1,060 bytes of zero padding with no code pointers.
+                # Allocating 27 unique speaker entries at 32 bytes each uses 864 bytes (< 1060).
+                # We redirect the pointers in the table at 0x1047B8 to point into this safe .data padding.
+                # .rodata and .sdata are left 100% untouched to prevent crashes or jump table corruption!
                 SPEAKER_TABLE_POS = 0x1047B8
-                CHAR_SPEAKER_ALLOC = {
-                    # sys_char_01..12, 21 in Group 1 (0x14f898..0x14f940)
-                    "sys_char_01": (0x14F898, [0]),      # Tsukune (16 bytes) -> ends at 0x14F8A8
-                    "sys_char_02": (0x14F8A8, [1, 2]),   # Moka (10 bytes) -> ends at 0x14F8B2 (shares idx 1 & 2)
-                    "sys_char_03": (0x14F8B2, [3]),      # Kurumu (14 bytes) -> ends at 0x14F8C0
-                    "sys_char_04": (0x14F8C0, [4]),      # Yukari (14 bytes) -> ends at 0x14F8CE
-                    "sys_char_05": (0x14F8CE, [5]),      # Mizore (14 bytes) -> ends at 0x14F8DC
-                    "sys_char_06": (0x14F8DC, [6]),      # Midou (12 bytes) -> ends at 0x14F8E8
-                    "sys_char_07": (0x14F8E8, [7]),      # Kokoa (12 bytes) -> ends at 0x14F8F4
-                    "sys_char_08": (0x14F8F4, [8]),      # Shizuka (16 bytes) -> ends at 0x14F904
-                    "sys_char_09": (0x14F904, [9]),      # Rin (8 bytes) -> ends at 0x14F90C
-                    "sys_char_10": (0x14F90C, [10]),     # Hitomi (14 bytes) -> ends at 0x14F91A
-                    "sys_char_11": (0x14F91A, [11]),     # Ginei (12 bytes) -> ends at 0x14F926
-                    "sys_char_12": (0x14F926, [12]),     # Nekonome (18 bytes) -> ends at 0x14F938
-                    "sys_char_21": (0x14F938, [26]),     # ??? (8 bytes) -> ends at 0x14F940
+                SPEAKER_ALLOC_BASE_OFF = 0x1306F0
+                SPEAKER_ALLOC_BASE_VA = 0x0022F6F0
+                SPEAKER_SLOT_SIZE = 32
 
-                    # sys_char_13, 14, 15, 17, 18 in Group 2 (0x14f724..0x14f780)
-                    "sys_char_13": (0x14F724, [15]),     # Bastard (16 bytes) -> ends at 0x14F734
-                    "sys_char_14": (0x14F734, [16]),     # Koutarou (18 bytes) -> ends at 0x14F746
-                    "sys_char_15": (0x14F746, [17]),     # Kasahara (18 bytes) -> ends at 0x14F758
-                    "sys_char_17": (0x14F758, [19]),     # Sakasaku (18 bytes) -> ends at 0x14F76A
-                    "sys_char_18": (0x14F76A, [20]),     # Voice (12 bytes) -> ends at 0x14F776
-
-                    # sys_char_16, 19, 20 in Group 3 (0x14f7b0..0x14f800)
-                    "sys_char_16": (0x14F7B0, [18]),     # Bouzaburou (22 bytes) -> ends at 0x14F7C6
-                    "sys_char_19": (0x14F7C6, [21]),     # Karis (12 bytes) -> ends at 0x14F7D2
-                    "sys_char_20": (0x14F7D2, [25]),     # Foreigner (20 bytes) -> ends at 0x14F7E6
+                SPEAKER_ID_MAP = {
+                    "sys_char_01": [0],         # Tsukune
+                    "sys_char_02": [1, 2],      # Moka
+                    "sys_char_03": [3],         # Kurumu
+                    "sys_char_04": [4],         # Yukari
+                    "sys_char_05": [5],         # Mizore
+                    "sys_char_06": [6],         # Midou
+                    "sys_char_07": [7],         # Kokoa
+                    "sys_char_08": [8],         # Shizuka
+                    "sys_char_09": [9],         # Rin
+                    "sys_char_10": [10],        # Hitomi
+                    "sys_char_11": [11],        # Ginei
+                    "sys_char_12": [12],        # Nekonome
+                    "sys_spk_01":  [13],        # Ko-chan
+                    "sys_spk_02":  [14],        # Driver
+                    "sys_char_13": [15],        # Bastard
+                    "sys_char_14": [16],        # Koutarou
+                    "sys_char_15": [17],        # Kasahara
+                    "sys_char_16": [18],        # Bouzaburou
+                    "sys_char_17": [19],        # Sakasaku
+                    "sys_char_18": [20],        # Voice
+                    "sys_char_19": [21],        # Karis
+                    "sys_spk_03":  [22, 28],    # Boy
+                    "sys_spk_04":  [23, 29],    # Girl
+                    "sys_spk_05":  [24],        # Radio
+                    "sys_char_20": [25],        # Foreigner
+                    "sys_char_21": [26],        # ???
+                    "sys_spk_06":  [27],        # Mascot
                 }
 
+                # Collect translations from strings_system.json
+                slpm_trans: Dict[str, str] = {}
                 for proj in projects:
                     for s in proj.strings:
                         if s.source_file == "SLPM_551.89":
-                            trans = s.translations.get(target_lang, "").strip()
-                            if not trans:
-                                continue
-                            offset = int(s.offset_hex, 16)
-                            if s.id in CHAR_SPEAKER_ALLOC:
-                                alloc_off, table_indices = CHAR_SPEAKER_ALLOC[s.id]
-                                enc = encode_game_string(trans, use_halfwidth_ascii=True, auto_wrap=False) + b"\x00\x00"
-                                slpm_bytes[alloc_off : alloc_off + len(enc)] = enc
-                                va = alloc_off + 0x0FF000
-                                for tidx in table_indices:
-                                    struct.pack_into("<I", slpm_bytes, SPEAKER_TABLE_POS + tidx * 4, va)
-                            elif "encoding=custom" in (s.context or ""):
-                                fallback_len = _measure_null_terminated_span(slpm_bytes, offset, even_aligned=True)
-                                max_len = _parse_max_bytes(s.context, fallback_len)
-                                trans_bytes = encode_game_string(
-                                    trans, use_halfwidth_ascii=True, auto_wrap=False
-                                )
-                                even_max = (max_len // 2) * 2
-                                trans_bytes = trans_bytes[:even_max]
-                                replacement = trans_bytes.ljust(max_len, b"\x00")
-                                if 0 <= offset and max_len > 0 and offset + max_len <= len(slpm_bytes):
-                                    slpm_bytes[offset : offset + max_len] = replacement
-                            else:
-                                fallback_len = _measure_null_terminated_span(slpm_bytes, offset, even_aligned=False)
-                                max_len = _parse_max_bytes(s.context, fallback_len)
-                                trans_bytes = trans.encode("shift_jis", errors="replace")[:max_len]
-                                replacement = trans_bytes.ljust(max_len, b"\x00")
-                                if 0 <= offset and max_len > 0 and offset + max_len <= len(slpm_bytes):
-                                    slpm_bytes[offset : offset + max_len] = replacement
+                            t = s.translations.get(target_lang, "").strip()
+                            if t:
+                                slpm_trans[s.id] = t
+
+                for slot_idx, (spk_id, table_indices) in enumerate(SPEAKER_ID_MAP.items()):
+                    trans = slpm_trans.get(spk_id)
+                    if trans:
+                        alloc_off = SPEAKER_ALLOC_BASE_OFF + slot_idx * SPEAKER_SLOT_SIZE
+                        va = SPEAKER_ALLOC_BASE_VA + slot_idx * SPEAKER_SLOT_SIZE
+                        enc = encode_game_string(trans, use_halfwidth_ascii=True, auto_wrap=False) + b"\x00\x00"
+                        if len(enc) > SPEAKER_SLOT_SIZE:
+                            enc = enc[:SPEAKER_SLOT_SIZE - 2] + b"\x00\x00"
+                        slpm_bytes[alloc_off : alloc_off + len(enc)] = enc
+                        for tidx in table_indices:
+                            struct.pack_into("<I", slpm_bytes, SPEAKER_TABLE_POS + tidx * 4, va)
+
+                # Patch system prompts and save/load message pointer table at 0x105500
+                # Safe zero-padding allocation at file offset 0x130C20 (VA 0x0022FC20) has 6,912 continuous zero bytes.
+                SYSTEM_PROMPT_TABLE_POS = 0x105500
+                SYSTEM_PROMPT_BASE_OFF = 0x130C20
+                SYSTEM_PROMPT_BASE_VA = 0x0022FC20
+
+                SYSTEM_PROMPTS = {
+                    "en": {
+                        0: "Saving data.\nDo not remove Memory Card (PS2) or turn off the console.",
+                        1: "No Memory Card (PS2) inserted in Slot 1.\n[B:19][B:03] Return",
+                        2: "There is no loadable data on the\nMemory Card (PS2) in Slot 1.\n[B:19][B:03] Return",
+                        3: "Load this data?",
+                        4: "Loading data...",
+                        5: "Data loaded successfully.",
+                        6: "The data is corrupted.\n[B:19][B:03] Return",
+                        7: "Failed to load data!\nCheck Memory Card (PS2) in Slot 1 and try again.\n[B:19][B:02] Continue",
+                        8: "Insufficient free space on Memory Card (PS2) in Slot 1.\nTo create save data, [B:1B] is required.",
+                        9: "No save data on Memory Card (PS2) in Slot 1.\nTo create data, [B:1B] is required.",
+                        10: "Data on Memory Card (PS2) in Slot 1 is corrupted.\nOverwrite anyway?",
+                        11: "Overwrite existing data?",
+                        12: "Save to this slot?",
+                        13: "Data saved successfully.",
+                        14: "Creating save data.\nDo not remove Memory Card (PS2) or turn off the console.",
+                        15: "Save data creation complete.",
+                        16: "Formatting corrupted data...\nDo not remove Memory Card (PS2) or turn off the console.",
+                        17: "Format failed!\nCheck Memory Card (PS2) in Slot 1 and try again.\n[B:19][B:02] Continue",
+                        18: "Failed to create save data!\nCheck Memory Card (PS2) in Slot 1 and try again.\n[B:19][B:02] Continue",
+                        19: "Failed to save system data!\nCheck Memory Card (PS2) in Slot 1 and try again.\n[B:19][B:02] Continue",
+                        20: "Failed to save data!\nCheck Memory Card (PS2) in Slot 1 and try again.\n[B:19][B:02] Continue",
+                        21: "Failed to format corrupted data!\nCheck Memory Card (PS2) in Slot 1 and try again.\n[B:19][B:02] Continue",
+                        22: "Progress is not saved. Proceed anyway?",
+                        23: "No Memory Card (PS2) inserted in Slot 1.\nTo create save data, [B:1B] is required.",
+                        24: "No save data on Memory Card (PS2) in Slot 1.\nTo create data, [B:1B] is required.",
+                        25: "Insufficient free space on Memory Card (PS2) in Slot 1.\nTo create save data, [B:1B] is required.",
+                        26: "Failed to load system data!\nCheck Memory Card (PS2) in Slot 1 and try again.\nStart game anyway?",
+                        27: "System data is corrupted.\nCreate new system data?",
+                        28: "Save changed settings?",
+                        29: "Save system data?",
+                        30: "Save game clear data?",
+                        31: "Return to Title Screen?",
+                        33: "No Data",
+                        34: "June 15", 35: "June 16", 36: "June 17", 37: "June 18", 38: "June 19",
+                        39: "June 20", 40: "June 21", 41: "June 22", 42: "June 23", 43: "June 24",
+                        44: "Youkai Academy", 45: "School Gate", 46: "Classroom", 47: "Hallway",
+                        48: "Rooftop", 49: "Infirmary", 50: "School Store", 51: "Hallway",
+                        52: "Newspaper Club", 53: "Fan Club Union", 54: "Tsukune Room",
+                        55: "Courtyard", 56: "Cafeteria", 57: "Cooking Lab", 58: "Pond",
+                        59: "Cemetery", 60: "Live Stage", 63: "Ending",
+                    },
+                    "es": {
+                        0: "Guardando datos.\nNo extraiga la Memory Card (PS2) ni apague la consola.",
+                        1: "No hay Memory Card (PS2) en la Ranura 1.\n[B:19][B:03] Volver",
+                        2: "No hay datos para cargar en la\nMemory Card (PS2) en la Ranura 1.\n[B:19][B:03] Volver",
+                        3: "¿Cargar estos datos?",
+                        4: "Cargando datos...",
+                        5: "Datos cargados con éxito.",
+                        6: "Los datos están dañados.\n[B:19][B:03] Volver",
+                        7: "¡Fallo al cargar datos!\nCompruebe la Memory Card (PS2) en la Ranura 1.\n[B:19][B:02] Continuar",
+                        11: "¿Sobrescribir datos?",
+                        12: "¿Guardar en esta ranura?",
+                        13: "Datos guardados con éxito.",
+                        22: "Progreso no guardado. ¿Continuar?",
+                        27: "Datos del sistema dañados.\n¿Crear nuevos datos?",
+                        28: "¿Guardar ajustes?",
+                        29: "¿Guardar datos de sistema?",
+                        30: "¿Guardar datos completados?",
+                        31: "¿Volver a la pantalla de título?",
+                        33: "Sin datos",
+                    }
+                }
+
+                prompts_dict = dict(SYSTEM_PROMPTS.get("en", {}))
+                if target_lang in SYSTEM_PROMPTS:
+                    prompts_dict.update(SYSTEM_PROMPTS[target_lang])
+
+                curr_prompt_off = SYSTEM_PROMPT_BASE_OFF
+                curr_prompt_va = SYSTEM_PROMPT_BASE_VA
+                for p_idx, p_text in prompts_dict.items():
+                    p_enc = encode_game_string(p_text, use_halfwidth_ascii=True, auto_wrap=False) + b"\x00\x00"
+                    if len(p_enc) % 4 != 0:
+                        p_enc += b"\x00" * (4 - (len(p_enc) % 4))
+                    if curr_prompt_off + len(p_enc) <= 0x132760:
+                        slpm_bytes[curr_prompt_off : curr_prompt_off + len(p_enc)] = p_enc
+                        struct.pack_into("<I", slpm_bytes, SYSTEM_PROMPT_TABLE_POS + p_idx * 4, curr_prompt_va)
+                        curr_prompt_off += len(p_enc)
+                        curr_prompt_va += len(p_enc)
 
                 f.seek(slpm_entry.offset)
                 f.write(slpm_bytes)
@@ -324,6 +406,9 @@ class GamePatcher:
                             f.seek(afs1_offset + pac_afs_entry.offset)
                             f.write(new_pac_bytes.ljust(orig_pac_size, b"\x00"))
 
+                    # Patch translated 2D textures (title buttons, HUD, prompts)
+                    self._patch_textures(f, afs1_offset, afs1)
+
         if progress_callback:
             progress_callback(4, 5, "Verifying sector integrity...")
 
@@ -331,3 +416,108 @@ class GamePatcher:
             progress_callback(5, 5, "Patch complete!")
 
         return output_iso_path
+
+    def _patch_textures(self, f, afs1_offset: int, afs1: AfsArchive) -> None:
+        """
+        Patches translated 2D textures (.png -> .tex) into 1.afs and its PAC containers.
+        """
+        tex_dirs = []
+        for candidate in [self.translations_dir / "textures", Path("translations/textures")]:
+            if candidate.exists() and candidate not in tex_dirs:
+                tex_dirs.append(candidate)
+
+        tex_replacements: Dict[str, bytes] = {}
+        for td in tex_dirs:
+            for png_file in sorted(td.glob("*.png")):
+                base_stem = png_file.stem.lower()
+                tex_name = base_stem + ".tex"
+                if tex_name not in tex_replacements:
+                    try:
+                        with open(png_file, "rb") as pf:
+                            tex_replacements[tex_name] = tex_tool.png_to_tex(pf.read())
+                    except Exception as ex:
+                        print(f"Warning: Failed to convert texture {png_file.name}: {ex}")
+
+        if not tex_replacements:
+            return
+
+        # 1. Patch standalone textures in 1.afs
+        for e in afs1.entries:
+            fname = os.path.basename(e.name).lower()
+            if fname in tex_replacements:
+                new_tex = tex_replacements[fname]
+                if len(new_tex) <= e.size:
+                    f.seek(afs1_offset + e.offset)
+                    f.write(new_tex.ljust(e.size, b"\x00"))
+
+        # 2. Patch textures inside PAC archives in 1.afs (e.g. pac900000.pac, pac000000.pac)
+        for e in afs1.entries:
+            if e.name.lower().endswith(".pac"):
+                f.seek(afs1_offset + e.offset)
+                pac_raw = f.read(e.size)
+                try:
+                    pac = PacArchive(pac_raw)
+                except Exception:
+                    continue
+
+                pac_needs_rebuild = any(pe.name.lower() in tex_replacements for pe in pac.entries)
+                if not pac_needs_rebuild:
+                    continue
+
+                rebuilt_entries = []
+                for pe in pac.entries:
+                    pe_name = pe.name.lower()
+                    if pe_name in tex_replacements:
+                        new_raw = tex_replacements[pe_name]
+                        comp_data = compress_lzr(new_raw) if pe.is_compressed else new_raw
+                        rebuilt_entries.append({
+                            "name": pe.name,
+                            "data": comp_data,
+                            "is_compressed": pe.is_compressed,
+                            "uncomp_size": len(new_raw),
+                            "flag": pe.flag | 0x00010000 if pe.is_compressed else pe.flag,
+                            "modified": True,
+                        })
+                    else:
+                        rebuilt_entries.append({
+                            "name": pe.name,
+                            "data": pe.data,
+                            "is_compressed": pe.is_compressed,
+                            "uncomp_size": pe.uncomp_size,
+                            "flag": pe.flag,
+                            "modified": False,
+                        })
+
+                new_pac_bytes = PacArchive.build_pac_bytes(rebuilt_entries, align=64)
+                if len(new_pac_bytes) <= e.size:
+                    f.seek(afs1_offset + e.offset)
+                    f.write(new_pac_bytes.ljust(e.size, b"\x00"))
+
+
+if __name__ == "__main__":
+    import argparse
+    import sys
+
+    parser = argparse.ArgumentParser(description="Patch Rosario + Vampire PS2 ISO with community translations.")
+    parser.add_argument("--input-iso", "-i", default="iso/Rosario to Vampire Capu 2 - Koi to Yume no Rhapsodia (Japan).iso", help="Path to clean Japanese ISO")
+    parser.add_argument("--output-iso", "-o", default=None, help="Path for patched output ISO")
+    parser.add_argument("--lang", "-l", default="en", choices=["en", "es", "fr"], help="Language code (en, es, fr)")
+    parser.add_argument("--translations-dir", "-t", default="translations", help="Directory with translation JSONs")
+    args = parser.parse_args()
+
+    iso_in = Path(args.input_iso)
+    if not iso_in.exists():
+        print(f"Error: Clean ISO not found at '{iso_in}'.")
+        sys.exit(1)
+
+    iso_out = Path(args.output_iso) if args.output_iso else Path(f"Rosario_Capu2_{args.lang.upper()}.iso")
+    patcher = GamePatcher(clean_iso_path=iso_in, translations_dir=args.translations_dir)
+
+    def _progress(step: int, total: int, msg: str):
+        pct = int(step / total * 100)
+        bar = "=" * (pct // 2) + "-" * (50 - (pct // 2))
+        print(f"[{bar}] {pct:3d}% - {msg}")
+
+    patcher.patch_iso(target_lang=args.lang, output_iso_path=iso_out, progress_callback=_progress)
+    print(f"Done! Output generated: {iso_out}")
+

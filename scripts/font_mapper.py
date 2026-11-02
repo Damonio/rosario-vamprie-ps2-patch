@@ -1823,14 +1823,16 @@ def decode_game_string(raw: bytes, lossless: bool = False) -> str:
     return "".join(out)
 
 
-def wrap_english_text(text: str, max_cols: int = 18, max_lines: int = 3) -> str:
+def wrap_english_text(text: str, max_cols: int = 34, max_lines: int = 3) -> str:
     """
     Automatically word-wraps English dialogue to fit the PS2 message bubble.
-    The oval speech bubble fits ~16-17 half-width characters per line and up to 3 lines.
+    The PS2 text box fits ~32-36 half-width characters per line (10px glyphs in fn011.fnt)
+    and up to 3 lines.
     Strips legacy [RUBY] tags and wraps words across lines.
     """
     # Replace [RUBY] tags with clean spacing
     text = re.sub(r"\[RUBY\]", " ", text)
+    text = re.sub(r" +", " ", text)
 
     # Check if all existing lines already fit within max_cols
     existing_lines = text.split("\n")
@@ -1862,15 +1864,31 @@ def wrap_english_text(text: str, max_cols: int = 18, max_lines: int = 3) -> str:
     if curr_line:
         lines_out.append(curr_line)
 
+    # If lines_out exceeds max_lines, greedily merge lines up to max_cols + 6
+    if len(lines_out) > max_lines:
+        merged = []
+        for line in lines_out:
+            if merged and len(merged) == max_lines:
+                merged[-1] += " " + line
+            elif merged and len(_TAG_RE.sub("", merged[-1])) + 1 + len(_TAG_RE.sub("", line)) <= max_cols + 6:
+                merged[-1] += " " + line
+            else:
+                merged.append(line)
+        lines_out = merged
+
     return "\n".join(lines_out)
 
 
-def encode_game_string(text: str, use_halfwidth_ascii: bool = True, auto_wrap: bool = False, max_cols: int = 16) -> bytes:
+def encode_game_string(text: str, use_halfwidth_ascii: bool = True, auto_wrap: bool = False, max_cols: int = 34,
+                       compact_spaces: bool = False) -> bytes:
     """
     Encodes a UTF-8 string into the game's custom 16-bit big-endian font encoding.
     - When use_halfwidth_ascii=True (default for English translations):
       ASCII 0x21..0x7E are encoded as 0x8021..0x807E (10px half-width in fn011.fnt),
-      and ASCII space " " is encoded as single-byte 0x20 (or 0x8020 in fixed-2-byte tables).
+      and ASCII space " " is encoded as 0x8020 (half-width glyph).
+    - When compact_spaces=True, ASCII space is emitted as the single raw byte 0x20 instead
+      (the original .evb scripts use this form too, e.g. e104550.evb), saving 1 byte per space.
+      Use it for variable-length script text, never for fixed 2-byte-per-glyph tables.
     - Control tags [C:n], [RUBY], [G:XXXX], [B:XX] are restored to their exact byte sequences.
     """
     if auto_wrap:
@@ -1927,6 +1945,9 @@ def encode_game_string(text: str, use_halfwidth_ascii: bool = True, auto_wrap: b
             continue
         if ch == "\n":
             out.append(0x0A)
+            continue
+        if ch == " " and compact_spaces:
+            out.append(0x20)
             continue
         if ch == " " and use_halfwidth_ascii:
             out.append(0x80)

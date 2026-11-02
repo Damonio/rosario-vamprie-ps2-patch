@@ -15,7 +15,11 @@ rosario-vamprie-ps2-patch/
 ├── translations/                   # Redistributable translation files (tracked in Git, NO original Japanese text)
 │   ├── strings_dialogue.json       # Event script pointers & translations (725 .evb scripts)
 │   ├── strings_executable.json     # SLPM_551.89 UI/menu/save pointers & translations
-│   └── strings_system.json         # System container pointers & translations (sys000.bin, sys001.bin)
+│   ├── strings_system.json         # System container pointers & translations (sys000.bin, sys001.bin)
+│   └── textures/                   # Translated 2D UI & HUD textures (.png)
+│       ├── ac9000000.png           # Title screen menu buttons (New Game, Continue, Options, etc.)
+│       ├── ac1009910.png           # In-game HUD badges (SKIP, AUTO)
+│       └── ic900006.png            # Title prompt (PRESS START BUTTON)
 ├── extracted_text/                 # Local reference dump WITH original Japanese strings (git-ignored)
 │   ├── strings_dialogue.json
 │   ├── strings_executable.json
@@ -23,7 +27,9 @@ rosario-vamprie-ps2-patch/
 └── scripts/
     ├── distributable_patcher.py    # End-user ISO patcher (interactive wizard & CLI)
     ├── extract_text.py             # Extracts Japanese strings locally & syncs translations
-    ├── patcher.py                  # Core patching engine (ELF, AFS, 64-byte PAC, LZR, EVB bytecode)
+    ├── patcher.py                  # Core patching engine (ELF, AFS, 64-byte PAC, LZR, EVB, Textures)
+    ├── tex_tool.py                 # Pure Python .tex container converter (PS2 GS CLUT swizzling/quantization)
+    ├── render_textures.ps1         # Offline texture rendering script
     ├── translation_manager.py      # JSON schema loader, saver, and progress tracker
     ├── font_mapper.py              # Custom 16-bit glyph & half-width ASCII encoder/decoder
     ├── lzr_tool.py                 # HuneX LZR compressor/decompressor & EVB bytecode rebuilder

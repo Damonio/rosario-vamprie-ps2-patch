@@ -5,6 +5,7 @@ Rosario + Vampire Capu 2: Koi to Yume no Rhapsodia (PS2, SLPM_551.89).
 Pure Python - zero external dependencies.
 """
 
+import re
 import struct
 from typing import Dict, List, Optional, Tuple
 from font_mapper import decode_game_string, encode_game_string
@@ -327,15 +328,97 @@ def parse_evb_commands(evb: bytes) -> List[Tuple[int, int, bytes]]:
     return cmds
 
 
+# ---------------------------------------------------------------------------------------------
+# Engine text-length limit (reverse-engineered from SLPM_551.89)
+#
+# The script handlers for 0xFFFE (dialogue, VA 0x0010B8D0), 0xFFFD (choices, VA 0x0010BB10) and
+# 0xFFFC (special prompts, VA 0x0010BF20) all push the displayed text into the backlog via
+# VA 0x00108628. The length argument is computed from the packet's length field and then
+# truncated + sign-extended to 8 bits (`sll a3,a3,24 / sra a3,a3,24`) before being handed to
+# memcpy (VA 0x001E799C) targeting a 131-byte backlog slot (256 slots x 140 bytes).
+#
+#   0xFFFE : len = (u8)pkt[2]        - 16
+#   0xFFFD : len = (u8)entry[2]      - 16          (per choice entry)
+#   0xFFFC : len = pkt_len - rel[0]                (all entries concatenated, 256-byte stack buf)
+#
+# Any text payload (string + NUL + padding) of 128 bytes or more turns into a negative length,
+# i.e. a ~4 GB memcpy that wipes RAM and crashes PCSX2 with a random PC
+# ("Jump to unmapped recLUT page"). The original Japanese scripts never exceed 100 bytes.
+# ---------------------------------------------------------------------------------------------
+MAX_SCRIPT_TEXT_BYTES = 127
+MAX_SPECIAL_PROMPT_ENTRIES = 3  # 0xFFFC handler clamps the entry count to 3
+
+
 def _pad_null_terminated(encoded: bytes, align: int = 2) -> bytes:
     """
-    Appends a null terminator (0x00) and pads with 0xFF up to `align` byte alignment,
+    Appends a NUL terminator and pads with 0x00 up to `align` byte alignment,
     matching the original HuneX .evb compiler layout.
     """
     total = len(encoded) + 1
     rem = total % align
     pad_len = (align - rem) if rem != 0 else 0
-    return encoded + b"\x00" + (b"\xFF" * pad_len)
+    return encoded + b"\x00" * (1 + pad_len)
+
+
+def _split_trailing_tags(text: str) -> Tuple[str, str]:
+    """Splits trailing control tags such as '[B:19]' or '[B:19][B:01]' off the end of `text`."""
+    suffix = ""
+    while True:
+        m = re.search(r"\[(?:B:[0-9A-Fa-f]{2}|C:\d+)\]$", text)
+        if not m:
+            break
+        suffix = m.group(0) + suffix
+        text = text[: m.start()]
+    return text, suffix
+
+
+def encode_script_text(
+    text: str,
+    max_payload: int,
+    align: int = 2,
+    use_halfwidth_ascii: bool = True,
+    auto_wrap: bool = False,
+    max_cols: int = 18,
+    warnings_out: Optional[List[str]] = None,
+    label: str = "",
+) -> bytes:
+    """
+    Encodes `text` into a NUL-terminated, padded payload that is guaranteed to be <= max_payload bytes.
+    Strategy:
+      1. Normal encoding (half-width 0x8020 spaces).
+      2. Compact encoding (single-byte 0x20 spaces, as used by the original scripts).
+      3. Last resort: drop trailing words and append '...' (emits a warning so the line can be shortened).
+    """
+    def build(t: str, compact: bool) -> bytes:
+        enc = encode_game_string(
+            t, use_halfwidth_ascii=use_halfwidth_ascii, auto_wrap=auto_wrap, max_cols=max_cols,
+            compact_spaces=compact,
+        )
+        return _pad_null_terminated(enc, align=align)
+
+    payload = build(text, False)
+    if len(payload) <= max_payload:
+        return payload
+    payload = build(text, True)
+    if len(payload) <= max_payload:
+        return payload
+
+    body, suffix = _split_trailing_tags(text)
+    words = body.replace("\n", " ").split()
+    while words:
+        words.pop()
+        candidate = " ".join(words).rstrip(" ,;:.-") + "..." + suffix
+        payload = build(candidate, True)
+        if len(payload) <= max_payload:
+            break
+    else:
+        payload = _pad_null_terminated(b"", align=align)
+    if warnings_out is not None:
+        warnings_out.append(
+            f"{label}: text too long for the engine limit ({max_payload} bytes) and was truncated. "
+            f"Please shorten it: {text!r}"
+        )
+    return payload
 
 
 def extract_evb_strings(evb: bytes, script_name: str = "") -> List[Dict[str, any]]:
@@ -393,11 +476,26 @@ def extract_evb_strings(evb: bytes, script_name: str = "") -> List[Dict[str, any
     return results
 
 
+def pad_with_target_mod4(enc: bytes, target_mod4: int, header_len: int) -> bytes:
+    """
+    Appends null padding so that (header_len + len(payload)) % 4 == target_mod4.
+    Always includes at least one null terminator (0x00).
+    """
+    base_len = header_len + len(enc) + 1
+    pad = (target_mod4 - (base_len % 4)) % 4
+    return enc + b"\x00" * (1 + pad)
+
+
 def rebuild_evb(evb: bytes, translations: Dict[str, str], use_halfwidth_ascii: bool = True) -> bytes:
     """
     Rebuilds an uncompressed .evb bytecode buffer with translated strings.
     `translations` maps `offset_hex` (e.g. '0x0044' or '0x0530:0') to the translated string.
     Automatically recalculates packet lengths and relocates all jump/branch target offsets.
+    Guarantees:
+      1. Every modified packet preserves its exact original length parity mod 4, preventing
+         MIPS unaligned memory access exceptions in the game engine.
+      2. Every dialogue string is strictly capped <= 124 bytes so the PS2 backlog length
+         calculation (signed 8-bit) never goes negative and triggers a 4 GB RAM wipe.
     """
     if not translations:
         return evb
@@ -410,18 +508,38 @@ def rebuild_evb(evb: bytes, translations: Dict[str, str], use_halfwidth_ascii: b
     for pos, op, cmd_bytes in cmds:
         old_to_new[pos] = curr_new_offset
         off_key = f"0x{pos:04X}"
+        orig_len = len(cmd_bytes)
+        target_mod4 = orig_len % 4
 
         if op == -2 and off_key in translations and translations[off_key].strip():
             trans_text = translations[off_key].strip()
-            #Preserve trailing control bytes like [B:19] or [B:19][B:01] from original if not in translation
+            # Preserve trailing control bytes like [B:19] or [B:19][B:01] from original if not in translation
             orig_ja = decode_game_string(cmd_bytes[16:])
             for suffix in ("[B:19][B:01]", "[B:19]"):
                 if orig_ja.endswith(suffix) and not trans_text.endswith(suffix):
                     trans_text += suffix
                     break
-            enc = encode_game_string(trans_text, use_halfwidth_ascii=use_halfwidth_ascii, auto_wrap=True, max_cols=18)
-            str_payload = _pad_null_terminated(enc, align=2)
-            new_pkt = bytearray(cmd_bytes[:16]) + str_payload
+
+            # Try standard half-width encoding first (34 columns fits the 10px font in the PS2 dialogue box)
+            enc = encode_game_string(trans_text, use_halfwidth_ascii=use_halfwidth_ascii, auto_wrap=True, max_cols=34, compact_spaces=False)
+            payload = pad_with_target_mod4(enc, target_mod4, header_len=16)
+
+            # If payload exceeds the safe 124-byte backlog limit, try compact space (single-byte 0x20)
+            if len(payload) > 124:
+                enc = encode_game_string(trans_text, use_halfwidth_ascii=use_halfwidth_ascii, auto_wrap=True, max_cols=34, compact_spaces=True)
+                payload = pad_with_target_mod4(enc, target_mod4, header_len=16)
+
+            # Hard safety fallback: truncate words if still exceeding 124 bytes
+            if len(payload) > 124:
+                body, suffix_tag = _split_trailing_tags(trans_text)
+                words = body.replace("\n", " ").split()
+                while words and len(payload) > 124:
+                    words.pop()
+                    cand = " ".join(words).rstrip(" ,;:.-") + "..." + suffix_tag
+                    enc = encode_game_string(cand, use_halfwidth_ascii=use_halfwidth_ascii, auto_wrap=True, max_cols=34, compact_spaces=True)
+                    payload = pad_with_target_mod4(enc, target_mod4, header_len=16)
+
+            new_pkt = bytearray(cmd_bytes[:16]) + payload
             struct.pack_into("<H", new_pkt, 2, len(new_pkt))
             new_cmds.append((pos, op, new_pkt))
             curr_new_offset += len(new_pkt)
@@ -439,8 +557,8 @@ def rebuild_evb(evb: bytes, translations: Dict[str, str], use_halfwidth_ascii: b
                     entry_hdr = bytearray(cmd_bytes[rel : rel + 16])
                     c_key = f"0x{pos:04X}:{c_idx}"
                     if c_key in translations and translations[c_key].strip():
-                        enc = encode_game_string(translations[c_key].strip(), use_halfwidth_ascii=use_halfwidth_ascii, auto_wrap=False)
-                        str_payload = _pad_null_terminated(enc, align=4)
+                        enc = encode_game_string(translations[c_key].strip(), use_halfwidth_ascii=use_halfwidth_ascii, auto_wrap=False, compact_spaces=True)
+                        str_payload = pad_with_target_mod4(enc, target_mod4=0, header_len=16)
                     else:
                         next_rel = struct.unpack("<I", cmd_bytes[8 + (c_idx + 1) * 4 : 12 + (c_idx + 1) * 4])[0] if c_idx + 1 < cnt else len(cmd_bytes)
                         str_payload = cmd_bytes[rel + 16 : next_rel]
@@ -450,6 +568,9 @@ def rebuild_evb(evb: bytes, translations: Dict[str, str], use_halfwidth_ascii: b
                     struct.pack_into("<H", entry_hdr, 2, sub_len)
                     new_pkt.extend(entry_hdr)
                     new_pkt.extend(str_payload)
+                if len(new_pkt) % 4 != target_mod4:
+                    pad = (target_mod4 - (len(new_pkt) % 4)) % 4
+                    new_pkt.extend(b"\x00" * pad)
                 struct.pack_into("<H", new_pkt, 2, len(new_pkt))
             new_cmds.append((pos, op, new_pkt))
             curr_new_offset += len(new_pkt)
@@ -466,21 +587,24 @@ def rebuild_evb(evb: bytes, translations: Dict[str, str], use_halfwidth_ascii: b
                     rel = struct.unpack("<I", cmd_bytes[8 + c_idx * 4 : 12 + c_idx * 4])[0]
                     c_key = f"0x{pos:04X}:{c_idx}"
                     if c_key in translations and translations[c_key].strip():
-                        enc = encode_game_string(translations[c_key].strip(), use_halfwidth_ascii=use_halfwidth_ascii, auto_wrap=False)
-                        str_payload = _pad_null_terminated(enc, align=4)
+                        enc = encode_game_string(translations[c_key].strip(), use_halfwidth_ascii=use_halfwidth_ascii, auto_wrap=False, compact_spaces=True)
+                        str_payload = pad_with_target_mod4(enc, target_mod4=0, header_len=0)
                     else:
                         next_rel = struct.unpack("<I", cmd_bytes[8 + (c_idx + 1) * 4 : 12 + (c_idx + 1) * 4])[0] if c_idx + 1 < cnt else len(cmd_bytes)
                         str_payload = cmd_bytes[rel:next_rel]
                     new_rel = len(new_pkt)
                     struct.pack_into("<I", new_pkt, 8 + c_idx * 4, new_rel)
                     new_pkt.extend(str_payload)
+                if len(new_pkt) % 4 != target_mod4:
+                    pad = (target_mod4 - (len(new_pkt) % 4)) % 4
+                    new_pkt.extend(b"\x00" * pad)
                 struct.pack_into("<H", new_pkt, 2, len(new_pkt))
             new_cmds.append((pos, op, new_pkt))
             curr_new_offset += len(new_pkt)
 
         elif op == 0x0412 and off_key in translations and translations[off_key].strip():
-            enc = encode_game_string(translations[off_key].strip(), use_halfwidth_ascii=use_halfwidth_ascii, auto_wrap=False)
-            str_payload = _pad_null_terminated(enc, align=2)
+            enc = encode_game_string(translations[off_key].strip(), use_halfwidth_ascii=use_halfwidth_ascii, auto_wrap=False, compact_spaces=True)
+            str_payload = pad_with_target_mod4(enc, target_mod4, header_len=12)
             new_pkt = bytearray(cmd_bytes[:12]) + str_payload
             struct.pack_into("<H", new_pkt, 2, len(new_pkt))
             new_cmds.append((pos, op, new_pkt))
