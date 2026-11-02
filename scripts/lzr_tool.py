@@ -419,7 +419,7 @@ def rebuild_evb(evb: bytes, translations: Dict[str, str], use_halfwidth_ascii: b
                 if orig_ja.endswith(suffix) and not trans_text.endswith(suffix):
                     trans_text += suffix
                     break
-            enc = encode_game_string(trans_text, use_halfwidth_ascii=use_halfwidth_ascii, auto_wrap=True, max_cols=16)
+            enc = encode_game_string(trans_text, use_halfwidth_ascii=use_halfwidth_ascii, auto_wrap=True, max_cols=18)
             str_payload = _pad_null_terminated(enc, align=2)
             new_pkt = bytearray(cmd_bytes[:16]) + str_payload
             struct.pack_into("<H", new_pkt, 2, len(new_pkt))
