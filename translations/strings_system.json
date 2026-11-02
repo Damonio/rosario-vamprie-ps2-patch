@@ -1,0 +1,391 @@
+{
+  "game_title": "Rosario + Vampire PS2",
+  "version": "1.0",
+  "strings": [
+    {
+      "id": "sys_title",
+      "source_file": "afstmp/dat/sys001.bin",
+      "offset_hex": "0x0000C0",
+      "translations": {
+        "en": "Rosario + Vampire: Capu 2",
+        "es": "Rosario + Vampire: Capu 2",
+        "fr": "Rosario + Vampire: Capu 2"
+      },
+      "context": "PS2 Memory Card Save Icon Title in sys001.bin (max_bytes=34)"
+    },
+    {
+      "id": "sys_char_01",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F898",
+      "translations": {
+        "en": "Tsukune",
+        "es": "Tsukune",
+        "fr": "Tsukune"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=0)"
+    },
+    {
+      "id": "sys_char_02",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F8A0",
+      "translations": {
+        "en": "Moka",
+        "es": "Moka",
+        "fr": "Moka"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=1)"
+    },
+    {
+      "id": "sys_char_03",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F8A8",
+      "translations": {
+        "en": "Kurumu",
+        "es": "Kurumu",
+        "fr": "Kurumu"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=2)"
+    },
+    {
+      "id": "sys_char_04",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F8B0",
+      "translations": {
+        "en": "Yukari",
+        "es": "Yukari",
+        "fr": "Yukari"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=3)"
+    },
+    {
+      "id": "sys_char_05",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F8B8",
+      "translations": {
+        "en": "Mizore",
+        "es": "Mizore",
+        "fr": "Mizore"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=4)"
+    },
+    {
+      "id": "sys_char_06",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F8C0",
+      "translations": {
+        "en": "Midou",
+        "es": "Midou",
+        "fr": "Midou"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=5)"
+    },
+    {
+      "id": "sys_char_07",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F8C8",
+      "translations": {
+        "en": "Kokoa",
+        "es": "Kokoa",
+        "fr": "Kokoa"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=6)"
+    },
+    {
+      "id": "sys_char_08",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F8D0",
+      "translations": {
+        "en": "Shizuka",
+        "es": "Shizuka",
+        "fr": "Shizuka"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=7)"
+    },
+    {
+      "id": "sys_char_09",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F8D8",
+      "translations": {
+        "en": "Rin",
+        "es": "Rin",
+        "fr": "Rin"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=8)"
+    },
+    {
+      "id": "sys_char_10",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F8E0",
+      "translations": {
+        "en": "Hitomi",
+        "es": "Hitomi",
+        "fr": "Hitomi"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=9)"
+    },
+    {
+      "id": "sys_char_11",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F8E8",
+      "translations": {
+        "en": "Ginei",
+        "es": "Ginei",
+        "fr": "Ginei"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=10)"
+    },
+    {
+      "id": "sys_char_12",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F8F0",
+      "translations": {
+        "en": "Nekonome",
+        "es": "Nekonome",
+        "fr": "Nekonome"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=11)"
+    },
+    {
+      "id": "sys_char_13",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F8F8",
+      "translations": {
+        "en": "Bastard",
+        "es": "Bastard",
+        "fr": "Bastard"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=12)"
+    },
+    {
+      "id": "sys_char_14",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F900",
+      "translations": {
+        "en": "Koutarou",
+        "es": "Koutarou",
+        "fr": "Koutarou"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=13)"
+    },
+    {
+      "id": "sys_char_15",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F908",
+      "translations": {
+        "en": "Kasahara",
+        "es": "Kasahara",
+        "fr": "Kasahara"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=14)"
+    },
+    {
+      "id": "sys_char_16",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F910",
+      "translations": {
+        "en": "Bouzaburou",
+        "es": "Bouzaburou",
+        "fr": "Bouzaburou"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=15)"
+    },
+    {
+      "id": "sys_char_17",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F918",
+      "translations": {
+        "en": "Sakasaku",
+        "es": "Sakasaku",
+        "fr": "Sakasaku"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=16)"
+    },
+    {
+      "id": "sys_char_18",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F920",
+      "translations": {
+        "en": "Voice",
+        "es": "Voice",
+        "fr": "Voice"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=17)"
+    },
+    {
+      "id": "sys_char_19",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F928",
+      "translations": {
+        "en": "Karis",
+        "es": "Karis",
+        "fr": "Karis"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=18)"
+    },
+    {
+      "id": "sys_char_20",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F930",
+      "translations": {
+        "en": "Foreigner",
+        "es": "Foreigner",
+        "fr": "Foreigner"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=19)"
+    },
+    {
+      "id": "sys_char_21",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x0014F938",
+      "translations": {
+        "en": "???",
+        "es": "???",
+        "fr": "???"
+      },
+      "context": "Character Name Speaker Box (encoding=custom, table_idx=20)"
+    },
+    {
+      "id": "sys_spk_01",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x00139910",
+      "translations": {
+        "en": "Ko-chan",
+        "es": "Ko-chan",
+        "fr": "Ko-chan"
+      },
+      "context": "Minor Speaker Name (encoding=custom, max_bytes=16)"
+    },
+    {
+      "id": "sys_spk_02",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x00139920",
+      "translations": {
+        "en": "Driver",
+        "es": "Driver",
+        "fr": "Driver"
+      },
+      "context": "Minor Speaker Name (encoding=custom, max_bytes=16)"
+    },
+    {
+      "id": "sys_spk_03",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x00139930",
+      "translations": {
+        "en": "Boy",
+        "es": "Boy",
+        "fr": "Boy"
+      },
+      "context": "Minor Speaker Name (encoding=custom, max_bytes=16)"
+    },
+    {
+      "id": "sys_spk_04",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x00139940",
+      "translations": {
+        "en": "Girl",
+        "es": "Girl",
+        "fr": "Girl"
+      },
+      "context": "Minor Speaker Name (encoding=custom, max_bytes=16)"
+    },
+    {
+      "id": "sys_spk_05",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x00139950",
+      "translations": {
+        "en": "Radio",
+        "es": "Radio",
+        "fr": "Radio"
+      },
+      "context": "Minor Speaker Name (encoding=custom, max_bytes=16)"
+    },
+    {
+      "id": "sys_spk_06",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x00139960",
+      "translations": {
+        "en": "Mascot",
+        "es": "Mascot",
+        "fr": "Mascot"
+      },
+      "context": "Minor Speaker Name (encoding=custom, max_bytes=16)"
+    },
+    {
+      "id": "sys_map_01",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x001531E0",
+      "translations": {
+        "en": "Gate",
+        "es": "Gate",
+        "fr": "Gate"
+      },
+      "context": "Map Location (encoding=custom, max_bytes=8)"
+    },
+    {
+      "id": "sys_map_02",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x001531E8",
+      "translations": {
+        "en": "Class",
+        "es": "Class",
+        "fr": "Class"
+      },
+      "context": "Map Location (encoding=custom, max_bytes=8)"
+    },
+    {
+      "id": "sys_map_03",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x001531F0",
+      "translations": {
+        "en": "Roof",
+        "es": "Roof",
+        "fr": "Roof"
+      },
+      "context": "Map Location (encoding=custom, max_bytes=8)"
+    },
+    {
+      "id": "sys_map_04",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x001531F8",
+      "translations": {
+        "en": "Clinic",
+        "es": "Clinic",
+        "fr": "Clinic"
+      },
+      "context": "Map Location (encoding=custom, max_bytes=8)"
+    },
+    {
+      "id": "sys_map_05",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x00153200",
+      "translations": {
+        "en": "Shop",
+        "es": "Shop",
+        "fr": "Shop"
+      },
+      "context": "Map Location (encoding=custom, max_bytes=8)"
+    },
+    {
+      "id": "sys_map_06",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x00153208",
+      "translations": {
+        "en": "Hall",
+        "es": "Hall",
+        "fr": "Hall"
+      },
+      "context": "Map Location (encoding=custom, max_bytes=8)"
+    },
+    {
+      "id": "sys_map_07",
+      "source_file": "SLPM_551.89",
+      "offset_hex": "0x00153210",
+      "translations": {
+        "en": "Yard",
+        "es": "Yard",
+        "fr": "Yard"
+      },
+      "context": "Map Location (encoding=custom, max_bytes=8)"
+    }
+  ]
+}
