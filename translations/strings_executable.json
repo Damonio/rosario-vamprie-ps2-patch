@@ -7,9 +7,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013CF18",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Load data?",
+        "es": "Load data?",
+        "fr": "Load data?"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=38)"
     },
@@ -18,9 +18,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013CF40",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Loading...",
+        "es": "Loading...",
+        "fr": "Loading..."
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -29,9 +29,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013CF60",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Load failed.",
+        "es": "Load failed.",
+        "fr": "Load failed."
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -40,9 +40,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013D228",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Overwrite?",
+        "es": "Overwrite?",
+        "fr": "Overwrite?"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -51,9 +51,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013D248",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Save here?",
+        "es": "Save here?",
+        "fr": "Save here?"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -62,9 +62,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013D268",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Data saved.",
+        "es": "Data saved.",
+        "fr": "Data saved."
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -73,9 +73,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013D6C8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "No save. Continue?",
+        "es": "No save. Continue?",
+        "fr": "No save. Continue?"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=40)"
     },
@@ -84,9 +84,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DA28",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Save settings?",
+        "es": "Save settings?",
+        "fr": "Save settings?"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=36)"
     },
@@ -95,9 +95,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DA50",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Save sys data?",
+        "es": "Save sys data?",
+        "fr": "Save sys data?"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -106,9 +106,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DA70",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Save clear?",
+        "es": "Save clear?",
+        "fr": "Save clear?"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -117,9 +117,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DA90",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "To Title?",
+        "es": "To Title?",
+        "fr": "To Title?"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -128,9 +128,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DAA8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "0123456789",
+        "es": "0123456789",
+        "fr": "0123456789"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -139,9 +139,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DAC0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "No Data",
+        "es": "No Data",
+        "fr": "No Data"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -150,9 +150,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DAD8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun15",
+        "es": "Jun15",
+        "fr": "Jun15"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -161,9 +161,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DAE8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun16",
+        "es": "Jun16",
+        "fr": "Jun16"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -172,9 +172,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DAF8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun17",
+        "es": "Jun17",
+        "fr": "Jun17"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -183,9 +183,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DB08",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun18",
+        "es": "Jun18",
+        "fr": "Jun18"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -194,9 +194,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DB18",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun19",
+        "es": "Jun19",
+        "fr": "Jun19"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -205,9 +205,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DB28",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun20",
+        "es": "Jun20",
+        "fr": "Jun20"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -216,9 +216,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DB38",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun21",
+        "es": "Jun21",
+        "fr": "Jun21"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -227,9 +227,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DB48",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun22",
+        "es": "Jun22",
+        "fr": "Jun22"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -238,9 +238,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DB58",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun23",
+        "es": "Jun23",
+        "fr": "Jun23"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -249,9 +249,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DB68",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun24",
+        "es": "Jun24",
+        "fr": "Jun24"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -260,9 +260,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DB78",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "School",
+        "es": "School",
+        "fr": "School"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -271,9 +271,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DB88",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Hall",
+        "es": "Hall",
+        "fr": "Hall"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=8)"
     },
@@ -282,9 +282,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DB98",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Club",
+        "es": "Club",
+        "fr": "Club"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -293,9 +293,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DBA8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Fan Club",
+        "es": "Fan Club",
+        "fr": "Fan Club"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -304,9 +304,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DBC0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Room",
+        "es": "Room",
+        "fr": "Room"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -315,9 +315,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DBD0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Cafe",
+        "es": "Cafe",
+        "fr": "Cafe"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=8)"
     },
@@ -326,9 +326,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DBE0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Cook",
+        "es": "Cook",
+        "fr": "Cook"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -337,9 +337,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DBF0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Pond",
+        "es": "Pond",
+        "fr": "Pond"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -348,9 +348,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DC00",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Tomb",
+        "es": "Tomb",
+        "fr": "Tomb"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=8)"
     },
@@ -359,9 +359,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DC10",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Stage",
+        "es": "Stage",
+        "fr": "Stage"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -370,9 +370,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013DC30",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Ending",
+        "es": "Ending",
+        "fr": "Ending"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -381,9 +381,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013E840",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "AfterSch&Ba",
+        "es": "AfterSch&Ba",
+        "fr": "AfterSch&Ba"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -392,9 +392,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013E858",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Turnabou",
+        "es": "Turnabou",
+        "fr": "Turnabou"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -403,9 +403,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013E870",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Morning&N",
+        "es": "Morning&N",
+        "fr": "Morning&N"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -414,9 +414,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013E888",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Guidance",
+        "es": "Guidance",
+        "fr": "Guidance"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -425,9 +425,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013E8B0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Start&Bat",
+        "es": "Start&Bat",
+        "fr": "Start&Bat"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -436,9 +436,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013E8CE",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "&New",
+        "es": "&New",
+        "fr": "&New"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=8)"
     },
@@ -447,9 +447,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013E8D8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "AfterSch&Ba",
+        "es": "AfterSch&Ba",
+        "fr": "AfterSch&Ba"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -458,9 +458,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013E8F0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Lottery&",
+        "es": "Lottery&",
+        "fr": "Lottery&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -469,9 +469,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013E908",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Vocal&Vampire",
+        "es": "Vocal&Vampire",
+        "fr": "Vocal&Vampire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -480,9 +480,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013E928",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Vocal&Vampire",
+        "es": "Vocal&Vampire",
+        "fr": "Vocal&Vampire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -491,9 +491,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013E948",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Vocal&Vampire",
+        "es": "Vocal&Vampire",
+        "fr": "Vocal&Vampire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -502,9 +502,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013E968",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Vocal&Vampire",
+        "es": "Vocal&Vampire",
+        "fr": "Vocal&Vampire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -513,9 +513,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013E988",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Vocal&Vampire",
+        "es": "Vocal&Vampire",
+        "fr": "Vocal&Vampire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -524,9 +524,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013E9A8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Vocal&Vampire",
+        "es": "Vocal&Vampire",
+        "fr": "Vocal&Vampire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -535,9 +535,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013E9C8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Vocal&Vampire",
+        "es": "Vocal&Vampire",
+        "fr": "Vocal&Vampire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -546,9 +546,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013E9E8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Vocal&Vampire",
+        "es": "Vocal&Vampire",
+        "fr": "Vocal&Vampire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -557,9 +557,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EA08",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Lyrics&Y",
+        "es": "Lyrics&Y",
+        "fr": "Lyrics&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -568,9 +568,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EA20",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Lyrics&Y",
+        "es": "Lyrics&Y",
+        "fr": "Lyrics&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -579,9 +579,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EA38",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Lyrics&Y",
+        "es": "Lyrics&Y",
+        "fr": "Lyrics&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -590,9 +590,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EA50",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Lyrics&Y",
+        "es": "Lyrics&Y",
+        "fr": "Lyrics&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -601,9 +601,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EA68",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Lyrics&Y",
+        "es": "Lyrics&Y",
+        "fr": "Lyrics&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -612,9 +612,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EA80",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Lyrics&Y",
+        "es": "Lyrics&Y",
+        "fr": "Lyrics&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -623,9 +623,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EA98",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Lyrics&Y",
+        "es": "Lyrics&Y",
+        "fr": "Lyrics&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -634,9 +634,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EAB0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Lyrics&Y",
+        "es": "Lyrics&Y",
+        "fr": "Lyrics&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -645,9 +645,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EAC8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Lyrics&Y",
+        "es": "Lyrics&Y",
+        "fr": "Lyrics&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -656,9 +656,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EAE0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Honest&",
+        "es": "Honest&",
+        "fr": "Honest&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -667,9 +667,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EAF0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Honest&",
+        "es": "Honest&",
+        "fr": "Honest&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -678,9 +678,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EB00",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Honest&",
+        "es": "Honest&",
+        "fr": "Honest&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -689,9 +689,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EB10",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Honest&",
+        "es": "Honest&",
+        "fr": "Honest&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -700,9 +700,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EB20",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Honest&",
+        "es": "Honest&",
+        "fr": "Honest&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -711,9 +711,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EB30",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Honest&",
+        "es": "Honest&",
+        "fr": "Honest&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -722,9 +722,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EB40",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Honest&",
+        "es": "Honest&",
+        "fr": "Honest&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -733,9 +733,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EB50",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Honest&",
+        "es": "Honest&",
+        "fr": "Honest&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -744,9 +744,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EB60",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Honest&",
+        "es": "Honest&",
+        "fr": "Honest&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -755,9 +755,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EB70",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Honest&",
+        "es": "Honest&",
+        "fr": "Honest&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -766,9 +766,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EB80",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Limit&Fat",
+        "es": "Limit&Fat",
+        "fr": "Limit&Fat"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -777,9 +777,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EB98",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Going Ho",
+        "es": "Going Ho",
+        "fr": "Going Ho"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -788,9 +788,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EBB0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Night&Bat",
+        "es": "Night&Bat",
+        "fr": "Night&Bat"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -799,9 +799,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EBC8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Silhouette&Sir",
+        "es": "Silhouette&Sir",
+        "fr": "Silhouette&Sir"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -810,9 +810,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EBE8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "TV&3 Si",
+        "es": "TV&3 Si",
+        "fr": "TV&3 Si"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -821,9 +821,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EBF8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Save&Bat: 0",
+        "es": "Save&Bat: 0",
+        "fr": "Save&Bat: 0"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -832,9 +832,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EC10",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 16&Werewolf",
+        "es": "Jun 16&Werewolf",
+        "fr": "Jun 16&Werewolf"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -843,9 +843,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EC30",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 16&Or",
+        "es": "Jun 16&Or",
+        "fr": "Jun 16&Or"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -854,9 +854,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EC48",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 16&M",
+        "es": "Jun 16&M",
+        "fr": "Jun 16&M"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -865,9 +865,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EC60",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 16&Karika",
+        "es": "Jun 16&Karika",
+        "fr": "Jun 16&Karika"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -876,9 +876,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EC80",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 16&Karika",
+        "es": "Jun 16&Karika",
+        "fr": "Jun 16&Karika"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -887,9 +887,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013ECA0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 16&Wine: ",
+        "es": "Jun 16&Wine:",
+        "fr": "Jun 16&Wine:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -898,9 +898,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013ECC0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 16&Wine: ",
+        "es": "Jun 16&Wine:",
+        "fr": "Jun 16&Wine:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -909,9 +909,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013ECE0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 16&Wine: ",
+        "es": "Jun 16&Wine:",
+        "fr": "Jun 16&Wine:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -920,9 +920,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013ED00",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 16&Face",
+        "es": "Jun 16&Face",
+        "fr": "Jun 16&Face"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -931,9 +931,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013ED18",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 16&Vamp",
+        "es": "Jun 16&Vamp",
+        "fr": "Jun 16&Vamp"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -942,9 +942,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013ED30",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 16&Ka",
+        "es": "Jun 16&Ka",
+        "fr": "Jun 16&Ka"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -953,9 +953,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013ED48",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 16&Werewolf",
+        "es": "Jun 16&Werewolf",
+        "fr": "Jun 16&Werewolf"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -964,9 +964,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013ED68",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Alone&Ts",
+        "es": "Alone&Ts",
+        "fr": "Alone&Ts"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -975,9 +975,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013ED80",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Morning&B",
+        "es": "Morning&B",
+        "fr": "Morning&B"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -986,9 +986,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013ED98",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Secret F",
+        "es": "Secret F",
+        "fr": "Secret F"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -997,9 +997,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EDB0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Escape&3 ",
+        "es": "Escape&3",
+        "fr": "Escape&3"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1008,9 +1008,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EDC8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "AfterSch&Ba",
+        "es": "AfterSch&Ba",
+        "fr": "AfterSch&Ba"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1019,9 +1019,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EDE0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Repay&Siren:",
+        "es": "Repay&Siren:",
+        "fr": "Repay&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1030,9 +1030,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EE00",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Repay&Siren:",
+        "es": "Repay&Siren:",
+        "fr": "Repay&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1041,9 +1041,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EE20",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Repay&Siren:",
+        "es": "Repay&Siren:",
+        "fr": "Repay&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1052,9 +1052,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EE40",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Repay&Siren:",
+        "es": "Repay&Siren:",
+        "fr": "Repay&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1063,9 +1063,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EE60",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Repay&Siren:",
+        "es": "Repay&Siren:",
+        "fr": "Repay&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1074,9 +1074,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EE80",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Repay&Siren:",
+        "es": "Repay&Siren:",
+        "fr": "Repay&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1085,9 +1085,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EEA0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Repay&Siren:",
+        "es": "Repay&Siren:",
+        "fr": "Repay&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1096,9 +1096,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EEC0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Repay&Siren:",
+        "es": "Repay&Siren:",
+        "fr": "Repay&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1107,9 +1107,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EEE0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Repay&Siren:",
+        "es": "Repay&Siren:",
+        "fr": "Repay&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1118,9 +1118,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EF00",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Repay&Siren:",
+        "es": "Repay&Siren:",
+        "fr": "Repay&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1129,9 +1129,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EF20",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Repay&Siren:",
+        "es": "Repay&Siren:",
+        "fr": "Repay&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1140,9 +1140,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EF40",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Mistake&Sir",
+        "es": "Mistake&Sir",
+        "fr": "Mistake&Sir"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1151,9 +1151,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EF58",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Mistake&Sir",
+        "es": "Mistake&Sir",
+        "fr": "Mistake&Sir"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1162,9 +1162,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EF70",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Mistake&Sir",
+        "es": "Mistake&Sir",
+        "fr": "Mistake&Sir"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1173,9 +1173,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EF88",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Mistake&Sir",
+        "es": "Mistake&Sir",
+        "fr": "Mistake&Sir"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1184,9 +1184,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EFA0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Mistake&Sir",
+        "es": "Mistake&Sir",
+        "fr": "Mistake&Sir"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1195,9 +1195,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EFB8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Mistake&Sir",
+        "es": "Mistake&Sir",
+        "fr": "Mistake&Sir"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1206,9 +1206,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EFD0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Love Potion",
+        "es": "Love Potion",
+        "fr": "Love Potion"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1217,9 +1217,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013EFE8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Love Potion",
+        "es": "Love Potion",
+        "fr": "Love Potion"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1228,9 +1228,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F000",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Love Potion",
+        "es": "Love Potion",
+        "fr": "Love Potion"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1239,9 +1239,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F018",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Love Potion",
+        "es": "Love Potion",
+        "fr": "Love Potion"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1250,9 +1250,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F030",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Love Potion",
+        "es": "Love Potion",
+        "fr": "Love Potion"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1261,9 +1261,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F048",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Love Potion",
+        "es": "Love Potion",
+        "fr": "Love Potion"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1272,9 +1272,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F060",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Love Potion",
+        "es": "Love Potion",
+        "fr": "Love Potion"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1283,9 +1283,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F090",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Love Potion",
+        "es": "Love Potion",
+        "fr": "Love Potion"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1294,9 +1294,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F0A8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Love Potion",
+        "es": "Love Potion",
+        "fr": "Love Potion"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1305,9 +1305,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F0D8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Love Potion",
+        "es": "Love Potion",
+        "fr": "Love Potion"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1316,9 +1316,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F0F0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Love Potion",
+        "es": "Love Potion",
+        "fr": "Love Potion"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1327,9 +1327,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F120",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Limit&Fat",
+        "es": "Limit&Fat",
+        "fr": "Limit&Fat"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1338,9 +1338,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F138",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Going Ho",
+        "es": "Going Ho",
+        "fr": "Going Ho"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -1349,9 +1349,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F150",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Night&Bat",
+        "es": "Night&Bat",
+        "fr": "Night&Bat"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1360,9 +1360,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F168",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Silhouette&Sir",
+        "es": "Silhouette&Sir",
+        "fr": "Silhouette&Sir"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -1371,9 +1371,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F188",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "City&3 S",
+        "es": "City&3 S",
+        "fr": "City&3 S"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -1382,9 +1382,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F1A0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Save&Bat: 0",
+        "es": "Save&Bat: 0",
+        "fr": "Save&Bat: 0"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1393,9 +1393,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F1B8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 17&Or",
+        "es": "Jun 17&Or",
+        "fr": "Jun 17&Or"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1404,9 +1404,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F1D0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 17&Werewolf",
+        "es": "Jun 17&Werewolf",
+        "fr": "Jun 17&Werewolf"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -1415,9 +1415,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F1F0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 17&Win",
+        "es": "Jun 17&Win",
+        "fr": "Jun 17&Win"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -1426,9 +1426,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F208",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 17&Sis",
+        "es": "Jun 17&Sis",
+        "fr": "Jun 17&Sis"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -1437,9 +1437,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F220",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 17&クッキー: ",
+        "es": "Jun 17&クッキー:",
+        "fr": "Jun 17&クッキー:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -1448,9 +1448,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F240",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 17&クッキー: ",
+        "es": "Jun 17&クッキー:",
+        "fr": "Jun 17&クッキー:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -1459,9 +1459,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F260",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 17&ウヱバ",
+        "es": "Jun 17&ウヱバ",
+        "fr": "Jun 17&ウヱバ"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -1470,9 +1470,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F278",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 17&W",
+        "es": "Jun 17&W",
+        "fr": "Jun 17&W"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -1481,9 +1481,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F290",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 17&Y",
+        "es": "Jun 17&Y",
+        "fr": "Jun 17&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -1492,9 +1492,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F2A8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 17&Sis",
+        "es": "Jun 17&Sis",
+        "fr": "Jun 17&Sis"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -1503,9 +1503,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F2C0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 17&Sis",
+        "es": "Jun 17&Sis",
+        "fr": "Jun 17&Sis"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -1514,9 +1514,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F2D8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 17&Ot",
+        "es": "Jun 17&Ot",
+        "fr": "Jun 17&Ot"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1525,9 +1525,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F2F0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 17&Ba",
+        "es": "Jun 17&Ba",
+        "fr": "Jun 17&Ba"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1536,9 +1536,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F308",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 17&Werewolf",
+        "es": "Jun 17&Werewolf",
+        "fr": "Jun 17&Werewolf"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -1547,9 +1547,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F328",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Alone&Ts",
+        "es": "Alone&Ts",
+        "fr": "Alone&Ts"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -1558,9 +1558,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F340",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Morning&B",
+        "es": "Morning&B",
+        "fr": "Morning&B"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1569,9 +1569,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F358",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Date&Bloo",
+        "es": "Date&Bloo",
+        "fr": "Date&Bloo"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1580,9 +1580,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F370",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Date&Bloo",
+        "es": "Date&Bloo",
+        "fr": "Date&Bloo"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1591,9 +1591,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F388",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Date&Bloo",
+        "es": "Date&Bloo",
+        "fr": "Date&Bloo"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1602,9 +1602,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F3A0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Date&Bloo",
+        "es": "Date&Bloo",
+        "fr": "Date&Bloo"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1613,9 +1613,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F3B8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Date&Bloo",
+        "es": "Date&Bloo",
+        "fr": "Date&Bloo"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1624,9 +1624,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F3D0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Night&Bat",
+        "es": "Night&Bat",
+        "fr": "Night&Bat"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1635,9 +1635,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F3E8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Silhouette&Sir",
+        "es": "Silhouette&Sir",
+        "fr": "Silhouette&Sir"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -1646,9 +1646,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F408",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Save&Bat: 0",
+        "es": "Save&Bat: 0",
+        "fr": "Save&Bat: 0"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -1657,9 +1657,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F420",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Morning&B",
+        "es": "Morning&B",
+        "fr": "Morning&B"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1668,9 +1668,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F438",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Rivalr",
+        "es": "Rivalr",
+        "fr": "Rivalr"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -1679,9 +1679,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F448",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Holiday",
+        "es": "Holiday",
+        "fr": "Holiday"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -1690,9 +1690,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F458",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Cleaning&Suc",
+        "es": "Cleaning&Suc",
+        "fr": "Cleaning&Suc"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1701,9 +1701,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F478",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Cleaning&Suc",
+        "es": "Cleaning&Suc",
+        "fr": "Cleaning&Suc"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1712,9 +1712,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F498",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Cleaning&Suc",
+        "es": "Cleaning&Suc",
+        "fr": "Cleaning&Suc"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1723,9 +1723,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F4B8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Cleaning&Suc",
+        "es": "Cleaning&Suc",
+        "fr": "Cleaning&Suc"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1734,9 +1734,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F4D8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Cleaning&Suc",
+        "es": "Cleaning&Suc",
+        "fr": "Cleaning&Suc"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1745,9 +1745,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F4F8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Cleaning&Suc",
+        "es": "Cleaning&Suc",
+        "fr": "Cleaning&Suc"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1756,9 +1756,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F518",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Cleaning&Suc",
+        "es": "Cleaning&Suc",
+        "fr": "Cleaning&Suc"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1767,9 +1767,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F538",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Cleaning&Suc",
+        "es": "Cleaning&Suc",
+        "fr": "Cleaning&Suc"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1778,9 +1778,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F558",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Cleaning&Suc",
+        "es": "Cleaning&Suc",
+        "fr": "Cleaning&Suc"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1789,9 +1789,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F578",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Cleaning&Suc",
+        "es": "Cleaning&Suc",
+        "fr": "Cleaning&Suc"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -1800,9 +1800,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F598",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Notebook&",
+        "es": "Notebook&",
+        "fr": "Notebook&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1811,9 +1811,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F5B0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Notebook&",
+        "es": "Notebook&",
+        "fr": "Notebook&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1822,9 +1822,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F5C8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Notebook&",
+        "es": "Notebook&",
+        "fr": "Notebook&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1833,9 +1833,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F5E0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Notebook&",
+        "es": "Notebook&",
+        "fr": "Notebook&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1844,9 +1844,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F5F8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Notebook&",
+        "es": "Notebook&",
+        "fr": "Notebook&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1855,9 +1855,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F610",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Notebook&",
+        "es": "Notebook&",
+        "fr": "Notebook&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1866,9 +1866,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F628",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Notebook&",
+        "es": "Notebook&",
+        "fr": "Notebook&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1877,9 +1877,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F640",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Siren&Interview",
+        "es": "Siren&Interview",
+        "fr": "Siren&Interview"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -1888,9 +1888,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F660",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Siren&Interview",
+        "es": "Siren&Interview",
+        "fr": "Siren&Interview"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -1899,9 +1899,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F680",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Siren&Interview",
+        "es": "Siren&Interview",
+        "fr": "Siren&Interview"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -1910,9 +1910,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F6A0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Siren&Interview",
+        "es": "Siren&Interview",
+        "fr": "Siren&Interview"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -1921,9 +1921,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F6C0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Siren&Interview",
+        "es": "Siren&Interview",
+        "fr": "Siren&Interview"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -1932,9 +1932,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F6E0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Siren&Interview",
+        "es": "Siren&Interview",
+        "fr": "Siren&Interview"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -1943,9 +1943,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F700",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Siren&Interview",
+        "es": "Siren&Interview",
+        "fr": "Siren&Interview"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -1954,9 +1954,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F720",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Siren&Interview",
+        "es": "Siren&Interview",
+        "fr": "Siren&Interview"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -1965,9 +1965,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F740",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Siren&Interview",
+        "es": "Siren&Interview",
+        "fr": "Siren&Interview"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -1976,9 +1976,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F760",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Limit&Fat",
+        "es": "Limit&Fat",
+        "fr": "Limit&Fat"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -1987,9 +1987,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F778",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Going Ho",
+        "es": "Going Ho",
+        "fr": "Going Ho"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -1998,9 +1998,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F790",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Night&Bat",
+        "es": "Night&Bat",
+        "fr": "Night&Bat"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -2009,9 +2009,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F7A8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Silhouette&Sir",
+        "es": "Silhouette&Sir",
+        "fr": "Silhouette&Sir"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -2020,9 +2020,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F7C8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Hot Day&",
+        "es": "Hot Day&",
+        "fr": "Hot Day&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2031,9 +2031,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F7E0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Hot Day&",
+        "es": "Hot Day&",
+        "fr": "Hot Day&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2042,9 +2042,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F7F8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Hot D",
+        "es": "Hot D",
+        "fr": "Hot D"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -2053,9 +2053,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F808",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Hot D",
+        "es": "Hot D",
+        "fr": "Hot D"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -2064,9 +2064,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F818",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Hot Da",
+        "es": "Hot Da",
+        "fr": "Hot Da"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -2075,9 +2075,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F828",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Hot ",
+        "es": "Hot",
+        "fr": "Hot"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=8)"
     },
@@ -2086,9 +2086,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F838",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Hot Day&",
+        "es": "Hot Day&",
+        "fr": "Hot Day&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2097,9 +2097,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F850",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Save&Bat: 0",
+        "es": "Save&Bat: 0",
+        "fr": "Save&Bat: 0"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -2108,9 +2108,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F868",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Notebook&",
+        "es": "Notebook&",
+        "fr": "Notebook&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -2119,9 +2119,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F880",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&Karis",
+        "es": "Jun 19&Karis",
+        "fr": "Jun 19&Karis"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2130,9 +2130,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F8A0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&Otaku",
+        "es": "Jun 19&Otaku",
+        "fr": "Jun 19&Otaku"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2141,9 +2141,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F8C0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&Orc: ",
+        "es": "Jun 19&Orc:",
+        "fr": "Jun 19&Orc:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2152,9 +2152,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F8E0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&Werewolf",
+        "es": "Jun 19&Werewolf",
+        "fr": "Jun 19&Werewolf"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -2163,9 +2163,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F900",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&Baken",
+        "es": "Jun 19&Baken",
+        "fr": "Jun 19&Baken"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2174,9 +2174,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F920",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&Otaku",
+        "es": "Jun 19&Otaku",
+        "fr": "Jun 19&Otaku"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2185,9 +2185,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F940",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&Otaku",
+        "es": "Jun 19&Otaku",
+        "fr": "Jun 19&Otaku"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2196,9 +2196,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F960",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&Orc: ",
+        "es": "Jun 19&Orc:",
+        "fr": "Jun 19&Orc:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2207,9 +2207,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F980",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&Orc: ",
+        "es": "Jun 19&Orc:",
+        "fr": "Jun 19&Orc:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2218,9 +2218,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F9A0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&Karis",
+        "es": "Jun 19&Karis",
+        "fr": "Jun 19&Karis"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2229,9 +2229,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F9C0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&Driv",
+        "es": "Jun 19&Driv",
+        "fr": "Jun 19&Driv"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -2240,9 +2240,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F9D8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&Flatty:",
+        "es": "Jun 19&Flatty:",
+        "fr": "Jun 19&Flatty:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -2251,9 +2251,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013F9F8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&Flatty:",
+        "es": "Jun 19&Flatty:",
+        "fr": "Jun 19&Flatty:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -2262,9 +2262,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FA18",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&Vamp",
+        "es": "Jun 19&Vamp",
+        "fr": "Jun 19&Vamp"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -2273,9 +2273,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FA30",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&Succ",
+        "es": "Jun 19&Succ",
+        "fr": "Jun 19&Succ"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -2284,9 +2284,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FA48",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&Y",
+        "es": "Jun 19&Y",
+        "fr": "Jun 19&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2295,9 +2295,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FA60",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&2",
+        "es": "Jun 19&2",
+        "fr": "Jun 19&2"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2306,9 +2306,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FA78",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 19&Werewolf",
+        "es": "Jun 19&Werewolf",
+        "fr": "Jun 19&Werewolf"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -2317,9 +2317,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FA98",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Alone&Ts",
+        "es": "Alone&Ts",
+        "fr": "Alone&Ts"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2328,9 +2328,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FAB0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Morning&B",
+        "es": "Morning&B",
+        "fr": "Morning&B"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -2339,9 +2339,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FAC8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "局曲&3 S",
+        "es": "局曲&3 S",
+        "fr": "局曲&3 S"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -2350,9 +2350,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FAD8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "AfterSch&Ba",
+        "es": "AfterSch&Ba",
+        "fr": "AfterSch&Ba"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -2361,9 +2361,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FAF0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Dream&Si",
+        "es": "Dream&Si",
+        "fr": "Dream&Si"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2372,9 +2372,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FB08",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Dream&Si",
+        "es": "Dream&Si",
+        "fr": "Dream&Si"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2383,9 +2383,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FB20",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Dream&Si",
+        "es": "Dream&Si",
+        "fr": "Dream&Si"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2394,9 +2394,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FB38",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Dream&Si",
+        "es": "Dream&Si",
+        "fr": "Dream&Si"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2405,9 +2405,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FB50",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Dream&Si",
+        "es": "Dream&Si",
+        "fr": "Dream&Si"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2416,9 +2416,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FB68",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Dream&Si",
+        "es": "Dream&Si",
+        "fr": "Dream&Si"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2427,9 +2427,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FB80",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Dream&Si",
+        "es": "Dream&Si",
+        "fr": "Dream&Si"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2438,9 +2438,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FB98",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Dream&Si",
+        "es": "Dream&Si",
+        "fr": "Dream&Si"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2449,9 +2449,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FBB0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Dream&Si",
+        "es": "Dream&Si",
+        "fr": "Dream&Si"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2460,9 +2460,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FBC8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Piggyback&Su",
+        "es": "Piggyback&Su",
+        "fr": "Piggyback&Su"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2471,9 +2471,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FBE8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Piggyback&Su",
+        "es": "Piggyback&Su",
+        "fr": "Piggyback&Su"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2482,9 +2482,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FC08",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Piggyback&Su",
+        "es": "Piggyback&Su",
+        "fr": "Piggyback&Su"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2493,9 +2493,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FC28",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Piggyback&Su",
+        "es": "Piggyback&Su",
+        "fr": "Piggyback&Su"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2504,9 +2504,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FC48",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Piggyback&Su",
+        "es": "Piggyback&Su",
+        "fr": "Piggyback&Su"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2515,9 +2515,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FC68",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Piggyback&Su",
+        "es": "Piggyback&Su",
+        "fr": "Piggyback&Su"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2526,9 +2526,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FC88",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Piggyback&Su",
+        "es": "Piggyback&Su",
+        "fr": "Piggyback&Su"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2537,9 +2537,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FCA8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Piggyback&Su",
+        "es": "Piggyback&Su",
+        "fr": "Piggyback&Su"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2548,9 +2548,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FCC8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Piggyback&Su",
+        "es": "Piggyback&Su",
+        "fr": "Piggyback&Su"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2559,9 +2559,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FCE8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Piggyback&Su",
+        "es": "Piggyback&Su",
+        "fr": "Piggyback&Su"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2570,9 +2570,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FD08",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Piggyback&Su",
+        "es": "Piggyback&Su",
+        "fr": "Piggyback&Su"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2581,9 +2581,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FD28",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Delinquen",
+        "es": "Delinquen",
+        "fr": "Delinquen"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -2592,9 +2592,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FD40",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Delinquen",
+        "es": "Delinquen",
+        "fr": "Delinquen"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -2603,9 +2603,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FD58",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Delinquen",
+        "es": "Delinquen",
+        "fr": "Delinquen"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -2614,9 +2614,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FD70",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Delinquen",
+        "es": "Delinquen",
+        "fr": "Delinquen"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -2625,9 +2625,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FD88",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Delinquen",
+        "es": "Delinquen",
+        "fr": "Delinquen"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -2636,9 +2636,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FDA0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Delinquen",
+        "es": "Delinquen",
+        "fr": "Delinquen"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -2647,9 +2647,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FDB8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Delinquen",
+        "es": "Delinquen",
+        "fr": "Delinquen"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -2658,9 +2658,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FDD0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Limit&Fat",
+        "es": "Limit&Fat",
+        "fr": "Limit&Fat"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -2669,9 +2669,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FDE8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Going Ho",
+        "es": "Going Ho",
+        "fr": "Going Ho"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2680,9 +2680,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FE00",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Night&Bat",
+        "es": "Night&Bat",
+        "fr": "Night&Bat"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -2691,9 +2691,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FE18",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Silhouette&Sir",
+        "es": "Silhouette&Sir",
+        "fr": "Silhouette&Sir"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -2702,9 +2702,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FE38",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Beach&V",
+        "es": "Beach&V",
+        "fr": "Beach&V"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -2713,9 +2713,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FE48",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Beach&S",
+        "es": "Beach&S",
+        "fr": "Beach&S"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -2724,9 +2724,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FE58",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Beac",
+        "es": "Beac",
+        "fr": "Beac"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=8)"
     },
@@ -2735,9 +2735,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FE68",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Beac",
+        "es": "Beac",
+        "fr": "Beac"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=8)"
     },
@@ -2746,9 +2746,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FE78",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Beach",
+        "es": "Beach",
+        "fr": "Beach"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -2757,9 +2757,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FE88",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Save&Bat: 0",
+        "es": "Save&Bat: 0",
+        "fr": "Save&Bat: 0"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -2768,9 +2768,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FEA0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Beach&S",
+        "es": "Beach&S",
+        "fr": "Beach&S"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -2779,9 +2779,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FEB0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Otaku",
+        "es": "Jun 20&Otaku",
+        "fr": "Jun 20&Otaku"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2790,9 +2790,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FED0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Y",
+        "es": "Jun 20&Y",
+        "fr": "Jun 20&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2801,9 +2801,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FEE8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Baken",
+        "es": "Jun 20&Baken",
+        "fr": "Jun 20&Baken"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2812,9 +2812,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FF08",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Driv",
+        "es": "Jun 20&Driv",
+        "fr": "Jun 20&Driv"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -2823,9 +2823,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FF20",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&W",
+        "es": "Jun 20&W",
+        "fr": "Jun 20&W"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -2834,9 +2834,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FF38",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Vampire",
+        "es": "Jun 20&Vampire",
+        "fr": "Jun 20&Vampire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -2845,9 +2845,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FF58",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Succ",
+        "es": "Jun 20&Succ",
+        "fr": "Jun 20&Succ"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -2856,9 +2856,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FF70",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Karis",
+        "es": "Jun 20&Karis",
+        "fr": "Jun 20&Karis"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2867,9 +2867,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FF90",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Wine: ",
+        "es": "Jun 20&Wine:",
+        "fr": "Jun 20&Wine:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -2878,9 +2878,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FFB0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Otaku",
+        "es": "Jun 20&Otaku",
+        "fr": "Jun 20&Otaku"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2889,9 +2889,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FFD0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Werew",
+        "es": "Jun 20&Werew",
+        "fr": "Jun 20&Werew"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2900,9 +2900,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x0013FFF0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Ne",
+        "es": "Jun 20&Ne",
+        "fr": "Jun 20&Ne"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -2911,9 +2911,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140008",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Face",
+        "es": "Jun 20&Face",
+        "fr": "Jun 20&Face"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -2922,9 +2922,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140020",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&",
+        "es": "Jun 20&",
+        "fr": "Jun 20&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -2933,9 +2933,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140030",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Og",
+        "es": "Jun 20&Og",
+        "fr": "Jun 20&Og"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -2944,9 +2944,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140048",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Orc: ",
+        "es": "Jun 20&Orc:",
+        "fr": "Jun 20&Orc:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2955,9 +2955,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140068",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Orc: ",
+        "es": "Jun 20&Orc:",
+        "fr": "Jun 20&Orc:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2966,9 +2966,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140088",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Vampire",
+        "es": "Jun 20&Vampire",
+        "fr": "Jun 20&Vampire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -2977,9 +2977,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001400A8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Karis",
+        "es": "Jun 20&Karis",
+        "fr": "Jun 20&Karis"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2988,9 +2988,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001400C8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 20&Baken",
+        "es": "Jun 20&Baken",
+        "fr": "Jun 20&Baken"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -2999,9 +2999,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001400E8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Alone&Ts",
+        "es": "Alone&Ts",
+        "fr": "Alone&Ts"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -3010,9 +3010,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140100",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Morning&B",
+        "es": "Morning&B",
+        "fr": "Morning&B"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -3021,9 +3021,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140118",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Confid",
+        "es": "Confid",
+        "fr": "Confid"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -3032,9 +3032,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140128",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "AfterSch&Ba",
+        "es": "AfterSch&Ba",
+        "fr": "AfterSch&Ba"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -3043,9 +3043,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140140",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Traditio",
+        "es": "Traditio",
+        "fr": "Traditio"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -3054,9 +3054,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140158",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Traditio",
+        "es": "Traditio",
+        "fr": "Traditio"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -3065,9 +3065,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140170",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Traditio",
+        "es": "Traditio",
+        "fr": "Traditio"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -3076,9 +3076,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140188",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Traditio",
+        "es": "Traditio",
+        "fr": "Traditio"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -3087,9 +3087,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001401A0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Traditio",
+        "es": "Traditio",
+        "fr": "Traditio"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -3098,9 +3098,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001401B8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Traditio",
+        "es": "Traditio",
+        "fr": "Traditio"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -3109,9 +3109,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001401D0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Traditio",
+        "es": "Traditio",
+        "fr": "Traditio"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -3120,9 +3120,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001401E8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Traditio",
+        "es": "Traditio",
+        "fr": "Traditio"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -3131,9 +3131,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140200",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Headphones&Sire",
+        "es": "Headphones&Sire",
+        "fr": "Headphones&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -3142,9 +3142,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140220",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Headphones&Sire",
+        "es": "Headphones&Sire",
+        "fr": "Headphones&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -3153,9 +3153,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140240",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Headphones&Sire",
+        "es": "Headphones&Sire",
+        "fr": "Headphones&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -3164,9 +3164,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140260",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Headphones&Sire",
+        "es": "Headphones&Sire",
+        "fr": "Headphones&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -3175,9 +3175,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140280",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Headphones&Sire",
+        "es": "Headphones&Sire",
+        "fr": "Headphones&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -3186,9 +3186,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001402A0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Headphones&Sire",
+        "es": "Headphones&Sire",
+        "fr": "Headphones&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -3197,9 +3197,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001402C0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Headphones&Sire",
+        "es": "Headphones&Sire",
+        "fr": "Headphones&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -3208,9 +3208,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001402E0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Headphones&Sire",
+        "es": "Headphones&Sire",
+        "fr": "Headphones&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -3219,9 +3219,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140300",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Headphones&Sire",
+        "es": "Headphones&Sire",
+        "fr": "Headphones&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -3230,9 +3230,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140320",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Headphones&Sire",
+        "es": "Headphones&Sire",
+        "fr": "Headphones&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -3241,9 +3241,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140340",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Headphones&Sire",
+        "es": "Headphones&Sire",
+        "fr": "Headphones&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -3252,9 +3252,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140360",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Headphones&Sire",
+        "es": "Headphones&Sire",
+        "fr": "Headphones&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -3263,9 +3263,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140380",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Boombox&3 S",
+        "es": "Boombox&3 S",
+        "fr": "Boombox&3 S"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -3274,9 +3274,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140398",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Boombox&3 S",
+        "es": "Boombox&3 S",
+        "fr": "Boombox&3 S"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -3285,9 +3285,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001403B0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Boombox&3 S",
+        "es": "Boombox&3 S",
+        "fr": "Boombox&3 S"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -3296,9 +3296,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001403C8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Boombox&3 S",
+        "es": "Boombox&3 S",
+        "fr": "Boombox&3 S"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -3307,9 +3307,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001403E0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Boombox&3 S",
+        "es": "Boombox&3 S",
+        "fr": "Boombox&3 S"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -3318,9 +3318,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001403F8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Boombox&3 S",
+        "es": "Boombox&3 S",
+        "fr": "Boombox&3 S"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -3329,9 +3329,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140410",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Boombox&3 S",
+        "es": "Boombox&3 S",
+        "fr": "Boombox&3 S"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -3340,9 +3340,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140428",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Limit&Fat",
+        "es": "Limit&Fat",
+        "fr": "Limit&Fat"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -3351,9 +3351,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140440",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Going Ho",
+        "es": "Going Ho",
+        "fr": "Going Ho"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -3362,9 +3362,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140458",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Silhouette&Sir",
+        "es": "Silhouette&Sir",
+        "fr": "Silhouette&Sir"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -3373,9 +3373,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140478",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Night&Bat",
+        "es": "Night&Bat",
+        "fr": "Night&Bat"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -3384,9 +3384,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140490",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Part-Time",
+        "es": "Part-Time",
+        "fr": "Part-Time"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -3395,9 +3395,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001404A8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Part-Time",
+        "es": "Part-Time",
+        "fr": "Part-Time"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -3406,9 +3406,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001404C0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Part-T",
+        "es": "Part-T",
+        "fr": "Part-T"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -3417,9 +3417,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001404D0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Part-T",
+        "es": "Part-T",
+        "fr": "Part-T"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -3428,9 +3428,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001404E0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Save&Bat: 0",
+        "es": "Save&Bat: 0",
+        "fr": "Save&Bat: 0"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -3439,9 +3439,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001404F8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Boombox&3 S",
+        "es": "Boombox&3 S",
+        "fr": "Boombox&3 S"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -3450,9 +3450,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140510",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Part-Ti",
+        "es": "Part-Ti",
+        "fr": "Part-Ti"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -3461,9 +3461,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140520",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Boombox&3 S",
+        "es": "Boombox&3 S",
+        "fr": "Boombox&3 S"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -3472,9 +3472,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140538",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Part-",
+        "es": "Part-",
+        "fr": "Part-"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -3483,9 +3483,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140548",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Part-Time",
+        "es": "Part-Time",
+        "fr": "Part-Time"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -3494,9 +3494,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140560",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Otaku",
+        "es": "Jun 21&Otaku",
+        "fr": "Jun 21&Otaku"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -3505,9 +3505,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140580",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Wine: ",
+        "es": "Jun 21&Wine:",
+        "fr": "Jun 21&Wine:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -3516,9 +3516,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001405A0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Driv",
+        "es": "Jun 21&Driv",
+        "fr": "Jun 21&Driv"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -3527,9 +3527,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001405B8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Werewolf",
+        "es": "Jun 21&Werewolf",
+        "fr": "Jun 21&Werewolf"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -3538,9 +3538,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001405D8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Riva",
+        "es": "Jun 21&Riva",
+        "fr": "Jun 21&Riva"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -3549,9 +3549,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001405F0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Fan: ",
+        "es": "Jun 21&Fan:",
+        "fr": "Jun 21&Fan:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -3560,9 +3560,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140610",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Sis",
+        "es": "Jun 21&Sis",
+        "fr": "Jun 21&Sis"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -3571,9 +3571,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140628",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Vampire",
+        "es": "Jun 21&Vampire",
+        "fr": "Jun 21&Vampire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -3582,9 +3582,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140648",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Siren: ",
+        "es": "Jun 21&Siren:",
+        "fr": "Jun 21&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -3593,9 +3593,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140668",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Fan: ",
+        "es": "Jun 21&Fan:",
+        "fr": "Jun 21&Fan:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -3604,9 +3604,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140688",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Wine: ",
+        "es": "Jun 21&Wine:",
+        "fr": "Jun 21&Wine:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -3615,9 +3615,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001406A8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Karis",
+        "es": "Jun 21&Karis",
+        "fr": "Jun 21&Karis"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -3626,9 +3626,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001406C8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&2",
+        "es": "Jun 21&2",
+        "fr": "Jun 21&2"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -3637,9 +3637,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001406E0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Baken",
+        "es": "Jun 21&Baken",
+        "fr": "Jun 21&Baken"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -3648,9 +3648,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140700",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Ne",
+        "es": "Jun 21&Ne",
+        "fr": "Jun 21&Ne"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -3659,9 +3659,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140718",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Karis",
+        "es": "Jun 21&Karis",
+        "fr": "Jun 21&Karis"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -3670,9 +3670,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140738",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Werewolf",
+        "es": "Jun 21&Werewolf",
+        "fr": "Jun 21&Werewolf"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -3681,9 +3681,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140758",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Baken",
+        "es": "Jun 21&Baken",
+        "fr": "Jun 21&Baken"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -3692,9 +3692,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140778",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Vampire",
+        "es": "Jun 21&Vampire",
+        "fr": "Jun 21&Vampire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -3703,9 +3703,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140798",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 21&Sis",
+        "es": "Jun 21&Sis",
+        "fr": "Jun 21&Sis"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -3714,9 +3714,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001407B0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Alone&Ts",
+        "es": "Alone&Ts",
+        "fr": "Alone&Ts"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -3725,9 +3725,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001407C8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Morning&B",
+        "es": "Morning&B",
+        "fr": "Morning&B"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -3736,9 +3736,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001407E0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Brawl&3",
+        "es": "Brawl&3",
+        "fr": "Brawl&3"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -3747,9 +3747,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001407F0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "AfterSch&Ba",
+        "es": "AfterSch&Ba",
+        "fr": "AfterSch&Ba"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -3758,9 +3758,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140808",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Y",
+        "es": "New Day&Y",
+        "fr": "New Day&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -3769,9 +3769,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140820",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Y",
+        "es": "New Day&Y",
+        "fr": "New Day&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -3780,9 +3780,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140838",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Y",
+        "es": "New Day&Y",
+        "fr": "New Day&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -3791,9 +3791,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140850",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Y",
+        "es": "New Day&Y",
+        "fr": "New Day&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -3802,9 +3802,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140868",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Y",
+        "es": "New Day&Y",
+        "fr": "New Day&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -3813,9 +3813,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140880",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Y",
+        "es": "New Day&Y",
+        "fr": "New Day&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -3824,9 +3824,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140898",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Y",
+        "es": "New Day&Y",
+        "fr": "New Day&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -3835,9 +3835,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001408B0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Y",
+        "es": "New Day&Y",
+        "fr": "New Day&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -3846,9 +3846,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001408C8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Y",
+        "es": "New Day&Y",
+        "fr": "New Day&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -3857,9 +3857,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001408E0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Sire",
+        "es": "New Day&Sire",
+        "fr": "New Day&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -3868,9 +3868,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140900",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Sire",
+        "es": "New Day&Sire",
+        "fr": "New Day&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -3879,9 +3879,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140920",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Sire",
+        "es": "New Day&Sire",
+        "fr": "New Day&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -3890,9 +3890,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140940",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Sire",
+        "es": "New Day&Sire",
+        "fr": "New Day&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -3901,9 +3901,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140960",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Sire",
+        "es": "New Day&Sire",
+        "fr": "New Day&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -3912,9 +3912,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140980",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Sire",
+        "es": "New Day&Sire",
+        "fr": "New Day&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -3923,9 +3923,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001409A0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Sire",
+        "es": "New Day&Sire",
+        "fr": "New Day&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -3934,9 +3934,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001409C0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Sire",
+        "es": "New Day&Sire",
+        "fr": "New Day&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -3945,9 +3945,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001409E0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Sire",
+        "es": "New Day&Sire",
+        "fr": "New Day&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -3956,9 +3956,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140A00",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "New Day&Sire",
+        "es": "New Day&Sire",
+        "fr": "New Day&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -3967,9 +3967,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140A20",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Taboo Blood",
+        "es": "Taboo Blood",
+        "fr": "Taboo Blood"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -3978,9 +3978,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140A38",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Taboo Blood",
+        "es": "Taboo Blood",
+        "fr": "Taboo Blood"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -3989,9 +3989,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140A50",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Taboo Blood",
+        "es": "Taboo Blood",
+        "fr": "Taboo Blood"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -4000,9 +4000,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140A68",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Taboo Blood",
+        "es": "Taboo Blood",
+        "fr": "Taboo Blood"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -4011,9 +4011,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140A80",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Taboo Blood",
+        "es": "Taboo Blood",
+        "fr": "Taboo Blood"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -4022,9 +4022,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140A98",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Taboo Blood",
+        "es": "Taboo Blood",
+        "fr": "Taboo Blood"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -4033,9 +4033,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140AB0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Taboo Blood",
+        "es": "Taboo Blood",
+        "fr": "Taboo Blood"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -4044,9 +4044,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140AE0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Taboo Blood",
+        "es": "Taboo Blood",
+        "fr": "Taboo Blood"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -4055,9 +4055,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140AF8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Eve&三姉妹:プリス:カリ",
+        "es": "Eve&三姉妹:プリス:カリ",
+        "fr": "Eve&三姉妹:プリス:カリ"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -4066,9 +4066,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140B18",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Taboo Blood",
+        "es": "Taboo Blood",
+        "fr": "Taboo Blood"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -4077,9 +4077,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140B30",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Limit&Fat",
+        "es": "Limit&Fat",
+        "fr": "Limit&Fat"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -4088,9 +4088,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140B48",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Going Ho",
+        "es": "Going Ho",
+        "fr": "Going Ho"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -4099,9 +4099,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140B60",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Night&Bat",
+        "es": "Night&Bat",
+        "fr": "Night&Bat"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -4110,9 +4110,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140B78",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Silhouette&Sir",
+        "es": "Silhouette&Sir",
+        "fr": "Silhouette&Sir"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -4121,9 +4121,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140B98",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Silhouette&Sir",
+        "es": "Silhouette&Sir",
+        "fr": "Silhouette&Sir"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -4132,9 +4132,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140BB8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Holiday&",
+        "es": "Holiday&",
+        "fr": "Holiday&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -4143,9 +4143,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140BD0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Holiday&",
+        "es": "Holiday&",
+        "fr": "Holiday&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -4154,9 +4154,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140BE8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Holid",
+        "es": "Holid",
+        "fr": "Holid"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -4165,9 +4165,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140BF8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Holid",
+        "es": "Holid",
+        "fr": "Holid"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -4176,9 +4176,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140C08",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Holida",
+        "es": "Holida",
+        "fr": "Holida"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -4187,9 +4187,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140C18",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Holi",
+        "es": "Holi",
+        "fr": "Holi"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=8)"
     },
@@ -4198,9 +4198,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140C28",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Holiday&",
+        "es": "Holiday&",
+        "fr": "Holiday&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -4209,9 +4209,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140C40",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Save&Bat: 0",
+        "es": "Save&Bat: 0",
+        "fr": "Save&Bat: 0"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -4220,9 +4220,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140C58",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Letter&S",
+        "es": "Letter&S",
+        "fr": "Letter&S"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -4231,9 +4231,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140C70",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&Otaku",
+        "es": "Jun 22&Otaku",
+        "fr": "Jun 22&Otaku"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -4242,9 +4242,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140C90",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&Driver:",
+        "es": "Jun 22&Driver:",
+        "fr": "Jun 22&Driver:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -4253,9 +4253,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140CB0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&Or",
+        "es": "Jun 22&Or",
+        "fr": "Jun 22&Or"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -4264,9 +4264,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140CC8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&Werewolf",
+        "es": "Jun 22&Werewolf",
+        "fr": "Jun 22&Werewolf"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -4275,9 +4275,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140CE8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&Driver:",
+        "es": "Jun 22&Driver:",
+        "fr": "Jun 22&Driver:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -4286,9 +4286,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140D08",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&W",
+        "es": "Jun 22&W",
+        "fr": "Jun 22&W"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -4297,9 +4297,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140D20",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&Otaku",
+        "es": "Jun 22&Otaku",
+        "fr": "Jun 22&Otaku"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -4308,9 +4308,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140D40",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&Otaku",
+        "es": "Jun 22&Otaku",
+        "fr": "Jun 22&Otaku"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -4319,9 +4319,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140D60",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&3",
+        "es": "Jun 22&3",
+        "fr": "Jun 22&3"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -4330,9 +4330,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140D78",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&Werewolf",
+        "es": "Jun 22&Werewolf",
+        "fr": "Jun 22&Werewolf"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=30)"
     },
@@ -4341,9 +4341,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140D98",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&Ne",
+        "es": "Jun 22&Ne",
+        "fr": "Jun 22&Ne"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -4352,9 +4352,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140DB0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&Y",
+        "es": "Jun 22&Y",
+        "fr": "Jun 22&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -4363,9 +4363,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140DC8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&Ka",
+        "es": "Jun 22&Ka",
+        "fr": "Jun 22&Ka"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -4374,9 +4374,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140DE0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&Vamp",
+        "es": "Jun 22&Vamp",
+        "fr": "Jun 22&Vamp"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -4385,9 +4385,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140DF8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&",
+        "es": "Jun 22&",
+        "fr": "Jun 22&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -4396,9 +4396,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140E08",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&Otaku",
+        "es": "Jun 22&Otaku",
+        "fr": "Jun 22&Otaku"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -4407,9 +4407,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140E28",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&Sire",
+        "es": "Jun 22&Sire",
+        "fr": "Jun 22&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -4418,9 +4418,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140E40",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 22&Succ",
+        "es": "Jun 22&Succ",
+        "fr": "Jun 22&Succ"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -4429,9 +4429,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140E58",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Alone&Ts",
+        "es": "Alone&Ts",
+        "fr": "Alone&Ts"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -4440,9 +4440,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140E70",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Morning&B",
+        "es": "Morning&B",
+        "fr": "Morning&B"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -4451,9 +4451,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140E88",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Newlywed",
+        "es": "Newlywed",
+        "fr": "Newlywed"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -4462,9 +4462,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140EA0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Newlywed",
+        "es": "Newlywed",
+        "fr": "Newlywed"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -4473,9 +4473,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140EB8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Newly",
+        "es": "Newly",
+        "fr": "Newly"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -4484,9 +4484,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140EC8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Newly",
+        "es": "Newly",
+        "fr": "Newly"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -4495,9 +4495,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140ED8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Newlyw",
+        "es": "Newlyw",
+        "fr": "Newlyw"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -4506,9 +4506,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140EE8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Newl",
+        "es": "Newl",
+        "fr": "Newl"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=8)"
     },
@@ -4517,9 +4517,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140EF8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Newlywed",
+        "es": "Newlywed",
+        "fr": "Newlywed"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -4528,9 +4528,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140F10",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Showti",
+        "es": "Showti",
+        "fr": "Showti"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -4539,9 +4539,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140F20",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "AfterSch&Ba",
+        "es": "AfterSch&Ba",
+        "fr": "AfterSch&Ba"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -4550,9 +4550,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140F38",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Brawl&News",
+        "es": "Brawl&News",
+        "fr": "Brawl&News"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -4561,9 +4561,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140F50",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Brawl&News",
+        "es": "Brawl&News",
+        "fr": "Brawl&News"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -4572,9 +4572,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140F68",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Brawl&News",
+        "es": "Brawl&News",
+        "fr": "Brawl&News"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -4583,9 +4583,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140F80",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Brawl&News",
+        "es": "Brawl&News",
+        "fr": "Brawl&News"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -4594,9 +4594,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140F98",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Live&Y",
+        "es": "Live&Y",
+        "fr": "Live&Y"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -4605,9 +4605,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140FA8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Brawl&News",
+        "es": "Brawl&News",
+        "fr": "Brawl&News"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -4616,9 +4616,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140FC0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Live&",
+        "es": "Live&",
+        "fr": "Live&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -4627,9 +4627,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140FD0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Brawl&News",
+        "es": "Brawl&News",
+        "fr": "Brawl&News"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -4638,9 +4638,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00140FE8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Brawl&News",
+        "es": "Brawl&News",
+        "fr": "Brawl&News"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -4649,9 +4649,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141000",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Brawl&News",
+        "es": "Brawl&News",
+        "fr": "Brawl&News"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -4660,9 +4660,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141018",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Brawl&News",
+        "es": "Brawl&News",
+        "fr": "Brawl&News"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -4671,9 +4671,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141030",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Live&W",
+        "es": "Live&W",
+        "fr": "Live&W"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -4682,9 +4682,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141040",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Brawl&News",
+        "es": "Brawl&News",
+        "fr": "Brawl&News"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -4693,9 +4693,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141058",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Brawl&News",
+        "es": "Brawl&News",
+        "fr": "Brawl&News"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -4704,9 +4704,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141070",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Brawl&News",
+        "es": "Brawl&News",
+        "fr": "Brawl&News"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -4715,9 +4715,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141088",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Live&Pacil",
+        "es": "Live&Pacil",
+        "fr": "Live&Pacil"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -4726,9 +4726,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001410A0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Brawl&News",
+        "es": "Brawl&News",
+        "fr": "Brawl&News"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -4737,9 +4737,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001410B8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Live&Succ",
+        "es": "Live&Succ",
+        "fr": "Live&Succ"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -4748,9 +4748,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001410D0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Brawl&News",
+        "es": "Brawl&News",
+        "fr": "Brawl&News"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -4759,9 +4759,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001410E8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Eve&Ne",
+        "es": "Eve&Ne",
+        "fr": "Eve&Ne"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -4770,9 +4770,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001410F8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Live&Vamp",
+        "es": "Live&Vamp",
+        "fr": "Live&Vamp"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -4781,9 +4781,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141110",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Stalker&Siren:",
+        "es": "Stalker&Siren:",
+        "fr": "Stalker&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -4792,9 +4792,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141130",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Stalker&Siren:",
+        "es": "Stalker&Siren:",
+        "fr": "Stalker&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -4803,9 +4803,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141150",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Stalker&Siren:",
+        "es": "Stalker&Siren:",
+        "fr": "Stalker&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -4814,9 +4814,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141170",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Stalker&Siren:",
+        "es": "Stalker&Siren:",
+        "fr": "Stalker&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -4825,9 +4825,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141190",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Stalker&Siren:",
+        "es": "Stalker&Siren:",
+        "fr": "Stalker&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -4836,9 +4836,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001411B0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Stalker&Siren:",
+        "es": "Stalker&Siren:",
+        "fr": "Stalker&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -4847,9 +4847,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001411D0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Live&Sire",
+        "es": "Live&Sire",
+        "fr": "Live&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -4858,9 +4858,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001411E8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Stalker&Siren:",
+        "es": "Stalker&Siren:",
+        "fr": "Stalker&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -4869,9 +4869,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141208",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Live&Ka",
+        "es": "Live&Ka",
+        "fr": "Live&Ka"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -4880,9 +4880,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141218",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Stalker&Siren:",
+        "es": "Stalker&Siren:",
+        "fr": "Stalker&Siren:"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -4891,9 +4891,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141238",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Live&Pacil",
+        "es": "Live&Pacil",
+        "fr": "Live&Pacil"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -4902,9 +4902,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141250",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Limit&Fat",
+        "es": "Limit&Fat",
+        "fr": "Limit&Fat"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -4913,9 +4913,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141268",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Finale",
+        "es": "Finale",
+        "fr": "Finale"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -4924,9 +4924,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141278",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Going Ho",
+        "es": "Going Ho",
+        "fr": "Going Ho"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -4935,9 +4935,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141290",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Night&Bat",
+        "es": "Night&Bat",
+        "fr": "Night&Bat"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -4946,9 +4946,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001412A8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Silhouette&Sir",
+        "es": "Silhouette&Sir",
+        "fr": "Silhouette&Sir"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -4957,9 +4957,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001412C8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Silhouette&Sir",
+        "es": "Silhouette&Sir",
+        "fr": "Silhouette&Sir"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=28)"
     },
@@ -4968,9 +4968,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001412E8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Darkness&",
+        "es": "Darkness&",
+        "fr": "Darkness&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -4979,9 +4979,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141300",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Save&Bat: 0",
+        "es": "Save&Bat: 0",
+        "fr": "Save&Bat: 0"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -4990,9 +4990,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141318",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 23&Kar",
+        "es": "Jun 23&Kar",
+        "fr": "Jun 23&Kar"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -5001,9 +5001,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141330",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 23&Face",
+        "es": "Jun 23&Face",
+        "fr": "Jun 23&Face"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -5012,9 +5012,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141348",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 23&Win",
+        "es": "Jun 23&Win",
+        "fr": "Jun 23&Win"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -5023,9 +5023,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141360",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 23&Driv",
+        "es": "Jun 23&Driv",
+        "fr": "Jun 23&Driv"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -5034,9 +5034,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141378",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 23&Ghos",
+        "es": "Jun 23&Ghos",
+        "fr": "Jun 23&Ghos"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -5045,9 +5045,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141390",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 23&Ghos",
+        "es": "Jun 23&Ghos",
+        "fr": "Jun 23&Ghos"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -5056,9 +5056,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001413A8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 23&W",
+        "es": "Jun 23&W",
+        "fr": "Jun 23&W"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -5067,9 +5067,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001413C0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 23&S&",
+        "es": "Jun 23&S&",
+        "fr": "Jun 23&S&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -5078,9 +5078,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001413D8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 23&Sire",
+        "es": "Jun 23&Sire",
+        "fr": "Jun 23&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -5089,9 +5089,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001413F0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 23&Werew",
+        "es": "Jun 23&Werew",
+        "fr": "Jun 23&Werew"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=24)"
     },
@@ -5100,9 +5100,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141410",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 23&Ne",
+        "es": "Jun 23&Ne",
+        "fr": "Jun 23&Ne"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -5111,9 +5111,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141428",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Jun 23&Ka",
+        "es": "Jun 23&Ka",
+        "fr": "Jun 23&Ka"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -5122,9 +5122,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141440",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Alone&Ts",
+        "es": "Alone&Ts",
+        "fr": "Alone&Ts"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -5133,9 +5133,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141458",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Morning&B",
+        "es": "Morning&B",
+        "fr": "Morning&B"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -5144,9 +5144,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001414F0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Farewell",
+        "es": "Farewell",
+        "fr": "Farewell"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -5155,9 +5155,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141588",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Rampage&三姉妹－新聞部編",
+        "es": "Rampage&三姉妹－新聞部編",
+        "fr": "Rampage&三姉妹－新聞部編"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=32)"
     },
@@ -5166,9 +5166,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001415B0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "System (No Me",
+        "es": "System (No Me",
+        "fr": "System (No Me"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=26)"
     },
@@ -5177,9 +5177,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141630",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Rampage&三姉",
+        "es": "Rampage&三姉",
+        "fr": "Rampage&三姉"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -5188,9 +5188,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001417A0",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Farewell",
+        "es": "Farewell",
+        "fr": "Farewell"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -5199,9 +5199,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141830",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Farewell&S",
+        "es": "Farewell&S",
+        "fr": "Farewell&S"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=20)"
     },
@@ -5210,9 +5210,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141848",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Trip&Vam",
+        "es": "Trip&Vam",
+        "fr": "Trip&Vam"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -5221,9 +5221,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141860",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Trip&Suc",
+        "es": "Trip&Suc",
+        "fr": "Trip&Suc"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=16)"
     },
@@ -5232,9 +5232,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141878",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Trip&",
+        "es": "Trip&",
+        "fr": "Trip&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -5243,9 +5243,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141888",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Trip&",
+        "es": "Trip&",
+        "fr": "Trip&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=10)"
     },
@@ -5254,9 +5254,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141898",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Trip&K",
+        "es": "Trip&K",
+        "fr": "Trip&K"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -5265,9 +5265,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001418A8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Trip",
+        "es": "Trip",
+        "fr": "Trip"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=8)"
     },
@@ -5276,9 +5276,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001418B8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Trip&3",
+        "es": "Trip&3",
+        "fr": "Trip&3"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -5287,9 +5287,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001418C8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Myster",
+        "es": "Myster",
+        "fr": "Myster"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -5298,9 +5298,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x001418D8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Drums&Wer",
+        "es": "Drums&Wer",
+        "fr": "Drums&Wer"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=18)"
     },
@@ -5309,9 +5309,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141B50",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Sudden&",
+        "es": "Sudden&",
+        "fr": "Sudden&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -5320,9 +5320,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141B60",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Sudden&",
+        "es": "Sudden&",
+        "fr": "Sudden&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -5331,9 +5331,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141B70",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Sudden&",
+        "es": "Sudden&",
+        "fr": "Sudden&"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=14)"
     },
@@ -5342,9 +5342,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141B80",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Sudden",
+        "es": "Sudden",
+        "fr": "Sudden"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=12)"
     },
@@ -5353,9 +5353,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141BF8",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Sudden&Sire",
+        "es": "Sudden&Sire",
+        "fr": "Sudden&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -5364,9 +5364,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141C10",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Sudden&Sire",
+        "es": "Sudden&Sire",
+        "fr": "Sudden&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
@@ -5375,9 +5375,9 @@
       "source_file": "SLPM_551.89",
       "offset_hex": "0x00141C28",
       "translations": {
-        "en": "",
-        "es": "",
-        "fr": ""
+        "en": "Sudden&Sire",
+        "es": "Sudden&Sire",
+        "fr": "Sudden&Sire"
       },
       "context": "Custom-encoded UI string (encoding=custom, max_bytes=22)"
     },
