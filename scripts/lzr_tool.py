@@ -486,7 +486,7 @@ def pad_with_target_mod4(enc: bytes, target_mod4: int, header_len: int) -> bytes
     return enc + b"\x00" * (1 + pad)
 
 
-def rebuild_evb(evb: bytes, translations: Dict[str, str], use_halfwidth_ascii: bool = True) -> bytes:
+def rebuild_evb(evb: bytes, translations: Dict[str, str], use_halfwidth_ascii: bool = True, max_dialogue_bytes: int = 124) -> bytes:
     """
     Rebuilds an uncompressed .evb bytecode buffer with translated strings.
     `translations` maps `offset_hex` (e.g. '0x0044' or '0x0530:0') to the translated string.
@@ -520,20 +520,15 @@ def rebuild_evb(evb: bytes, translations: Dict[str, str], use_halfwidth_ascii: b
                     trans_text += suffix
                     break
 
-            # Try standard half-width encoding first (34 columns fits the 10px font in the PS2 dialogue box)
-            enc = encode_game_string(trans_text, use_halfwidth_ascii=use_halfwidth_ascii, auto_wrap=True, max_cols=34, compact_spaces=False)
+            # Use compact space encoding (single-byte 0x20, as used by original scripts) to save space
+            enc = encode_game_string(trans_text, use_halfwidth_ascii=use_halfwidth_ascii, auto_wrap=True, max_cols=34, compact_spaces=True)
             payload = pad_with_target_mod4(enc, target_mod4, header_len=16)
 
-            # If payload exceeds the safe 124-byte backlog limit, try compact space (single-byte 0x20)
-            if len(payload) > 124:
-                enc = encode_game_string(trans_text, use_halfwidth_ascii=use_halfwidth_ascii, auto_wrap=True, max_cols=34, compact_spaces=True)
-                payload = pad_with_target_mod4(enc, target_mod4, header_len=16)
-
-            # Hard safety fallback: truncate words if still exceeding 124 bytes
-            if len(payload) > 124:
+            # Safety fallback: truncate words if exceeding max_dialogue_bytes
+            if len(payload) > max_dialogue_bytes:
                 body, suffix_tag = _split_trailing_tags(trans_text)
                 words = body.replace("\n", " ").split()
-                while words and len(payload) > 124:
+                while words and len(payload) > max_dialogue_bytes:
                     words.pop()
                     cand = " ".join(words).rstrip(" ,;:.-") + "..." + suffix_tag
                     enc = encode_game_string(cand, use_halfwidth_ascii=use_halfwidth_ascii, auto_wrap=True, max_cols=34, compact_spaces=True)

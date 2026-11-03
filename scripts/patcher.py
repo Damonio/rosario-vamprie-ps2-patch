@@ -354,7 +354,7 @@ class GamePatcher:
                                 if script_trans:
                                     evb_raw = decompress_lzr(entry.data) if entry.is_compressed else entry.data
                                     new_evb_raw = rebuild_evb(
-                                        evb_raw, script_trans, use_halfwidth_ascii=True
+                                        evb_raw, script_trans, use_halfwidth_ascii=True, max_dialogue_bytes=108
                                     )
                                     # Always LZR-compress translated EVB scripts to save space
                                     comp_data = compress_lzr(new_evb_raw)
@@ -378,22 +378,25 @@ class GamePatcher:
 
                             new_pac_bytes = PacArchive.build_pac_bytes(rebuilt_entries, align=64)
 
-                            # If 64-byte aligned PAC exceeds orig_pac_size (919,552 bytes), recompress untouched
-                            # entries with our optimal-parse LZR compressor until it fits within orig_pac_size.
+                            # If PAC exceeds orig_pac_size (919,552 bytes), recompress untouched entries
                             if len(new_pac_bytes) > orig_pac_size:
-                                excess = len(new_pac_bytes) - orig_pac_size
                                 for item in rebuilt_entries:
-                                    if excess <= 0:
-                                        break
                                     if not item["modified"] and item["is_compressed"]:
-                                        old_padded = ((len(item["data"]) + 63) // 64) * 64
                                         raw_untouched = decompress_lzr(item["data"])
                                         recomp = compress_lzr(raw_untouched)
-                                        new_padded = ((len(recomp) + 63) // 64) * 64
-                                        if new_padded < old_padded:
+                                        if len(recomp) < len(item["data"]):
                                             item["data"] = recomp
-                                            excess -= (old_padded - new_padded)
                                 new_pac_bytes = PacArchive.build_pac_bytes(rebuilt_entries, align=64)
+
+                            # If still exceeding, step down alignment to 32, 16, 8, then 4 (word aligned for MIPS)
+                            if len(new_pac_bytes) > orig_pac_size:
+                                new_pac_bytes = PacArchive.build_pac_bytes(rebuilt_entries, align=32)
+                            if len(new_pac_bytes) > orig_pac_size:
+                                new_pac_bytes = PacArchive.build_pac_bytes(rebuilt_entries, align=16)
+                            if len(new_pac_bytes) > orig_pac_size:
+                                new_pac_bytes = PacArchive.build_pac_bytes(rebuilt_entries, align=8)
+                            if len(new_pac_bytes) > orig_pac_size:
+                                new_pac_bytes = PacArchive.build_pac_bytes(rebuilt_entries, align=4)
 
                             if len(new_pac_bytes) > orig_pac_size:
                                 raise ValueError(
